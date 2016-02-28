@@ -1,0 +1,4169 @@
+/****************   style.css  ***************/
+
+/* font embedding 'hp_simplified' */
+@font-face {
+	font-family: hp_simplifiedbold;
+	src: url('../../hpi/system/fonts/v2-0/HPSimplified-bold-eot.eot');
+	src: 
+		url('../../hpi/system/fonts/v2-0/HPSimplified-bold-woff.woff') format('woff'),
+		url('../../hpi/system/fonts/v2-0/HPSimplified-bold-ttf.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: hp_simplifiedregular;
+	src: url('../../hpi/system/fonts/v2-0/HPSimplified-regular-eot.eot');
+	src: 
+		url('../../hpi/system/fonts/v2-0/HPSimplified-regular-woff.woff') format('woff'),
+		url('../../hpi/system/fonts/v2-0/HPSimplified-regular-ttf.ttf') format('truetype');
+		
+	font-weight: normal;
+	font-style: normal;
+}
+/* font embedding 'hp_simplified' */
+/* Reset CSS */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+	font-family:hp_simplifiedregular;
+}
+
+#callTypeDropDown select
+{
+width:93% !important
+}
+
+.ofDownArrow{
+	height: 14px;
+	width: 14px !important;
+	display: inline-block;
+	background: url('/hpi-s/images/down_arrow.png') no-repeat 2px 4px;
+	cursor: pointer;
+	background-size: 12px;
+	float: right;
+	position:absolute;
+	right:1px;
+} 
+.ofSeVDom
+{
+width:4%;
+}
+.OfProdDesc
+{
+width:10%;
+}
+.ofNamePhone
+{
+width:10%;
+}
+
+input
+{
+line-height:normal!important;
+}
+.ofCallListOpenCustomer .ofCallInputWraper,.ofCallListOpenCustomer .ofCallInputWraperList
+{
+top: 44px !important;
+}
+.ofCallListOpenCustomer #containerDivForCalendar
+{
+top: 44px !important;
+}
+.ofListNavigation
+{
+margin-top: 8px !important;
+}
+.ofCalendarElement .ofAccordionTableInput
+{
+width: 85% !important;
+height: 90% !important;
+}
+.ofCallListTable .ofCallTableHeading {
+height: 44px;
+}
+.callReportEngPopup .ofCallTableHeading {
+	height:44px;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+#statusOfListPage
+{
+width: 89px;
+}
+
+.hideInput {
+	display: none;
+}
+
+.showInput {
+	display: block;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+position: inherit;
+}
+
+
+/* common CSS */
+body {
+	font-family: hp_simplifiedregular;
+	display: block;
+background-color:white!important;
+}
+/*End of Common css*/
+
+/* Style for Navigation Menu */
+.userInfo {
+	display: block;
+	float: right;
+	font-size: 15px;
+	padding-right: 80px;
+	background-size: 35px 40px;
+	background-repeat: no-repeat;
+	background-position: 180px;
+}
+nav ul {
+	background: #0096D6;
+	color: #fff;
+	border-top: 1px solid #fff;
+}
+
+nav ul ul {
+	background: #0096D6;
+}
+
+nav ul li {
+	border: 1px solid #fff;
+	color: #fff;
+}
+nav ul li ul {
+	background: #0096D6;
+}
+nav ul .pageNav:hover a {
+color: #212121;
+
+}
+
+.ofSubMenuItem ul li{
+	margin-left:20px;
+	list-style-type:circle;
+	border: 0px;
+	border-bottom: 1px solid #56B6E8;
+}
+.ofSubMenuItem ul li:hover{
+background:rgb(229,232,232);
+color:black;
+}
+.ofSubMenuItem{
+	margin-top:-2px;
+}
+#redirectToPartOrdering:hover,#redirectToCallReporting:hover , #redirectToCallStatus:hover
+{
+color:black;
+}
+nav ul li a {
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+#showDiv {
+	background: #C1401A;
+}
+.emptySeveritySelection{
+	border: 1px solid red!important;
+}
+.ofPopupTableDiv {
+	width: 100%;
+	min-width: 100% !important;
+	margin: 0px auto;
+	height: 335px;
+}
+.ofSubmitAck{
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.ofCallReport .ofSubmitAck{
+	height: 20px;
+	padding-bottom: 15px;
+}
+.ofHiddenAckMessage{
+	display: none;
+}
+.ofPaginationArrrow{
+	border: 1px solid #0096D6;
+	color: #0096D6;
+	margin-right: 2px;
+	padding:5px;
+	cursor: pointer;
+}
+.ofPaginationLinks{
+	border: 1px solid #0096D6;
+	color: #0096D6;
+	margin-right: 2px;
+	padding: 5px;
+	cursor: pointer;
+}
+.ofSelectedPage{
+color: white !important;
+background-color: #0096D6;
+margin-right: 2px;
+padding: 5px;
+cursor: default!important;
+}
+.ofPaginationArrrow:hover{
+	border: 1px solid #006699;
+	color: #0096D6;
+	margin-right: 2px;
+	padding: 5px;
+	cursor: pointer;
+	
+}
+.ofPaginationLinks:hover{
+	border: 1px solid #006699;
+	color: #0096D6;
+	margin-right: 2px;
+	padding: 5px;
+	cursor: pointer;
+	
+	}
+.ofDisabledLabelClass, .ofDisabledLabelClasstd
+{
+background-color: #E7E7E7!important;
+color: gray!important;
+}
+.ofCallListOpenCustomer td a{
+	cursor: default !important;
+}
+/* End of Style for Navigation Menu */
+
+/***************  Style for Call List Table  *********************************************************/
+.ofHomeSelectionButton {
+	height: 55px;
+	width: 100%;
+}
+
+.ofHomeSelectionButton span {
+	color: #B9B8BB;
+	vertical-align: middle;
+}
+
+.ofHomeSpan {
+display:inline-block;
+color: #B9B8BB;
+padding: 7px 20px;
+margin: 10px 20px 10px 2px;
+float: left;
+}
+
+.ofTopRightButton1 {
+	padding: 7px 20px;
+	background: #0096D3;
+	border-top-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	color: #fff;
+	float: left;
+	margin: 10px 20px 10px 2px;
+	cursor: pointer;
+}
+
+.ofTopRightButton2 {
+	padding: 7px 20px;
+	background: #0096D6;
+	border-top-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	color: #fff;
+	float: right;
+	margin: 10px 20px 10px 0;
+	cursor: pointer;
+		
+		}
+
+.ofTopRightButton2:hover {
+	background: #006699;
+}
+
+.ofTopRightButton1:hover {
+	background: #006699;
+}
+
+.ofRollingDiv {
+
+	height: 325px;
+}
+
+#ofRollingDivChild{
+	display: inline-block;
+	width: 100%;
+}
+
+#engIdDiv, #crClosedFlagDiv{
+	display:none;
+}
+
+#reportAndEmailDiv{
+	display: block;
+}
+.ofCallListTable tr:nth-child(odd) {
+	background-color: #B2E0FF;
+	color: #5a5a5a;
+}
+
+.ofCallListTable tr:nth-child(even) {
+	background-color: #fff;
+	color: #767676;
+}
+
+#callListTableForViewingAllCalls tr
+{
+background-color: #fff;
+	color: #767676;
+
+}
+
+.ofCallListTable tr {
+	background-color: #B2E0FF;
+	color: #5a5a5a;
+}
+.ofCallListTable tr td {
+	border: 1px solid #767676;
+	word-break:break-all;
+	color : #000;
+ 
+}
+
+.ofTableHeading {
+	padding: 3px;
+	display: block;
+	text-align: center;
+	margin-right: 10px!important;
+}
+.ofCallTableHeading ul li {
+	position: relative ;
+	z-index: 1;
+	font-size: 15px;
+	color: #000000;
+	background: #fff;
+	text-align: left;
+	padding: 5px 20px 5px 5px;
+	width: 80%;
+}
+
+.ofCallTablePopupInput {
+	border: none;
+	padding: 5px;
+	width: 100px;
+}
+.OfArrowCommonQSS {
+	top: 17px;
+}
+#inputUpArrow {
+	top: -10px !important;
+}
+#tablepopupSearchSerial tr td,#engSearchPopupTable tr td{
+	height:35px;
+}
+
+.serialWidth{
+    width:82px !important;
+	}
+.serialLength,.itemWidth{
+width:84px !important;
+}	
+.pdWidth .ofTableHeading
+{
+word-break:normal !important;
+}
+.pdWidth{
+    width:91px;
+	word-break:break-all;
+}
+
+select {
+height: 22px !important;
+border: 1px solid #b9b8bb;
+}
+.euilWidth,.euWidth,.regionWidth,.ocWidth{
+    width:85px;
+}
+
+.ecWidth{
+width:167px;
+}
+.ecWidthCallStatus {
+width: 168px;
+}
+.enWidth{
+	width:183px;
+}
+.egWidth{
+	width:185px;
+}
+
+td a {
+	color: #000000;
+	cursor: pointer;
+	text-decoration: underline;
+	color: #006699;
+	text-decoration: underline;
+}
+
+td {	border: medium;
+	border-color: #000000;
+	margin: 0px;
+	text-align: center;
+}
+
+.ofHiddenSearchBar {
+	display: none;
+}
+#callListTableForViewingAllCalls .ofSpanSearchBar{
+width: 70%!important;
+}
+.ofVisibleSearchBar {
+	background: #0096D6;
+	padding: 3px 0 2px 2px;
+	border: 1px solid white !important;
+	position: relative;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0px -3px 5px #888888 inset;
+}
+.ofStatusDispatch{
+	background-color: #B2E0FF !important;
+	color: #5a5a5a !important;
+	
+}
+/*****************  End of Style for Call List Table  ************************************************/
+
+/**********************  Call Details Banner  ********************************************************/
+.ofCallDetails {
+	margin: 4px;
+}
+.ofCallDetails td {
+	padding: 5px 0 5px 1px;
+	text-align: left !important;
+	font-size: 14px;
+width: 59px;
+}
+#productDesc{
+	max-width:200px;
+}
+.ofBannerTableContent {
+	border: 1.5px solid #0096D3;
+	height: 15px;
+	background-color: #fff;
+	width: 100%;
+} 
+#callDesc,#engineerNamePopup, #address, #productDesc ,#callerName{
+	word-break: break-word;
+}
+.ofSpecs {
+	text-align: left;
+	border: none;
+	color: #0096D6 !important;
+}
+.ofBottomBorder {
+	border-bottom: 1px solid #0096D3;
+}
+
+.ofTableContent td {
+	text-align: left;
+	color: #000;
+}
+#callerPhone{
+width:14%;
+}
+/**********************  Call Details Banner  ********************************************************/
+
+/************************  COMMENTS SECTION  *********************************************************/
+.ofComments {
+	padding-left: 25px;
+	margin: 30px 30px 0 30px;
+	border: 1px solid #B9B8BB;
+}
+.ofCommentInput {
+	border: none;
+	width: 84%;
+	font-family: hp_simplifiedregular;
+}
+.ofCommentTextarea {
+	width: 97%;
+	border: none;
+	margin-top: -5px;
+	font-family: hp_simplifiedregular;
+}
+textarea:focus,input:focus {
+	outline: 0;
+}
+/**********************  END OF COMMENTS SECTION  ****************************************************/
+
+/***********************  Style for call status  *****************************************************/
+.ofCallInformation {
+	width: 100%;
+}
+.ofCallUpdateFields {
+	/*display: inline-block;
+	margin-left: 29px;
+	width: 125px;
+	color: #0096D6;*/
+display: inline-block;
+margin-left: 4%;
+width: 15%;
+color: #0096D6;
+float: left;
+}
+.ofCallUpdateSer
+{
+	/*display: inline-block;
+	width: 140px;
+	color: #0096D6;
+*/
+display: inline-block;
+width: 15%;
+color: #0096D6;
+float: left;
+
+}
+.ofCallUpdateWorkcode{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 216px;
+	width: 21%;
+	color: #0096D6;
+}
+.ofCallUpdateRow{
+	margin-top : 20px;
+margin-left: 3px;
+}
+select,input {	
+	font-size: 12px;
+}
+select{
+
+	border: 1px solid #b9b8bb;
+}
+.ofSearchInput {
+	width: 75%;
+	height: 21px;
+	cursor: text;
+	border: 1px solid #B9B8BB;
+}
+.ofSearchInput input {
+	border: none;
+	margin: 0;
+	width: 78%;
+}
+}
+.ofStatusSrch {
+	width: 60%;
+}
+#popupBoxSearchSerial {
+	display: none;
+	position: fixed;
+	width: 700px;
+	height: 393px;
+	background: #fff;
+	top: 22%;
+	box-shadow: 0px 0px 7px #000;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	z-index: 111 ;
+}
+
+#popupBoxSearchEng {
+	display: none;
+	position: fixed;
+	width: 700px;
+	height: 393px;
+	background: #fff;
+	top: 22%;
+	box-shadow: 0px 0px 7px #000;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	z-index: 113 ;
+}
+.ofDivScroller {
+	overflow-y: auto;
+	height: 200px;
+}
+
+.ofTopTaskbar img {
+	width: 25px;
+	height: 25px;
+	float: right;
+	cursor: pointer;
+	margin-top: -4px;
+}
+
+.ofLastUpdate {
+	color: #B9B8BB;
+	margin-left: 35px;
+	float: left;
+	width: 100%;
+	text-align: left;
+    margin-bottom:10px;
+    display :none;
+}
+
+.ofSubmitButtons {
+	display:inline-block;
+
+}
+
+.ofCallListLastUpdate {
+	margin-top: 50px;
+}
+
+.ofPageButton:hover {
+	background: #006699;
+}
+
+.ofPageButtonReporting {
+	background-color: #0096D6;
+	border-bottom-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+/*************************  End of Style for call status  *********************************************/
+
+/***************************  Style for Call Reporting ************************************************/
+.ofCallReporting {
+	display: inline-block;
+	width: 100%;
+}
+
+.ofDisabledSpan {
+	margin: 0px 0px 15px 10px;
+	cursor: pointer;
+	color: #767676;
+}
+
+.ofSubmitReport {
+	display: inline-block;
+	margin: 20px 0 20px 0; 
+	width: 100%;
+	text-align: center;
+}
+
+.ofSubmitReportResolution {
+	display: inline-block;
+	margin: 0 0px 0 20px;
+}
+.ofSubmitReportResolution span{
+	float: left;
+	color: #0096D6 !important;
+}
+/*********************************** Start of Call Report Page Popup Style***********************************/
+.ofPageButton {
+	background-color: #0096D6;
+	border-bottom-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	color: white!important;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 30px 5px 0 25px;
+	font-size: 14px;
+}
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+.ofMessagePop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: 15px;  
+  text-align:left;
+  width:450px;
+  z-index:50;
+  padding:0 5px 5px 5px;
+  left:34%;
+  top:30%;
+  background-color: rgb(175, 194, 218);
+  position:fixed;
+  
+}
+.ofMessagePop p, .ofMessagePop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+
+#popupCallReportDiv{
+	background-color:white;
+	text-align: center;
+	color:#0096D6;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+.ofPopupItemReturnDiv{
+	background-color:white;
+	text-align: center;
+	color:#0096D6;
+	padding-top: 15px;
+}
+#PopupMessageDivComments
+{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 200px;
+	margin-left: 130px;
+}
+#PopupContentComments
+{
+	display:inline-block;
+	width:100%;
+}
+.ofPopupCommentsBoxDiv
+{
+	display:inline-block;
+	padding-left: 17px;
+	font-weight:bold;
+}
+#callReportLink{
+	text-decoration: none;
+	color: #0096D6;
+}
+.ofTitleCommentsDiv{
+	font-weight:bold;
+	margin-bottom:10px
+}
+#pdfImage{
+	cursor: pointer;
+	float: right;
+	margin: 0px !important;
+	background: url('/hpi-s/images/pdf_icon.png') no-repeat scroll -4px 0px transparent;
+	width: 115px !important;
+	height: 126px;
+}
+#EmailDiv{
+	margin-bottom:10px;
+}
+#emailDivCommentsBox
+{
+	margin-bottom:10px;
+	text-align:left;
+	font-weight:normal;
+}
+.ofServicePerformed{
+	width: 410px;
+	height: 60px;
+	resize: none;
+	overflow-x: hidden;
+}
+.ofCheckEmail
+{
+	width: 10px;
+	 margin-right: 0px;
+	 width: 20px;
+	 height: 20px; 
+}
+#EmailSpanComments
+{
+	float:right;
+	margin-right: 20px;
+}
+#emailLink
+{
+	margin-left: 0px;
+	font-weight:normal;
+}
+.ofMailIds
+{
+	text-align: left;
+	font-weight: normal;
+}
+#commentsLinkDiv
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ofOptionsReporting {
+	width: 100% !important;
+	height: 100% !important;
+	border: 0px !important
+}
+
+.ofArrowSpan {
+	float: right;
+	margin-right: 6px;
+	font-weight:bold;
+}
+
+.symptomSpan {
+font-weight: normal !important;
+font-size: 13px;
+color: black !important;
+font-family: hp_simplifiedregular;
+display: inline-block;
+width: 95%;
+height: 17px;
+padding-left: 4px;
+	}
+
+.symptomList,.causeList,.actionList {
+	position: absolute!important;
+	top:17px;
+	left: -3px;
+	text-decoration: none;
+	width: 296px;
+	height: 19px;
+	z-index: 20;
+	box-shadow: inset 1px 1px 2px #888888;
+	vertical-align: middle;
+	}
+
+.ofMultiDropDown {
+	display: block;
+}
+
+.symptomList a,.causeList a,.actionList a,.ofMultiDropDown {
+	text-decoration: none;
+	width: 281px;
+	height: 10px;
+	z-index: 80;
+	border: 1px solid #B9B8B9;
+	box-shadow: inset 1px 1px 2px #888888;
+	text-align: left;
+	padding-left: 13px;
+	color: black;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size:12px!important;
+	font-family: monospace;
+
+}
+
+.ofFaultCodesSAC
+{
+width:29%;
+}
+.multiDropDiv {
+	position: relative;
+}
+
+.nav {
+	list-style: none;
+	margin-left: 0;
+}
+
+.nav>li,.nav>li>a {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+.stacked>li {
+	display: list-item;
+}
+
+.flyout,.flyout-alt {
+	position: relative;
+	background-color: white;
+	
+}
+.flyout-content {
+	position: absolute;
+	top: 100%;
+	left: -99999px;
+	height: 0;
+	overflow: hidden;
+	z-index:30;
+	-moz-box-shadow: 2px -1px 4px 3px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 2px -1px 4px 3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px -1px 4px 3px rgba(0, 0, 0, 0.75);
+}
+.flyout-contentClicked {
+	left: 0;
+	height: auto;
+	overflow: visible;
+	background-color: white;
+	box-shadow: 2px -1px 4px 3px rgba(0, 0, 0, 0.75);
+}
+
+.flyout-alt:hover>.flyout-content {
+	height: auto;
+	overflow: visible;
+	margin-left: -215px;
+	top: 0;
+	left: 100%;
+}
+
+.mainLi {
+	height: auto;
+	overflow: visible;
+}
+
+.mainLiClicked {
+	height: 0;
+	overflow: hidden;
+}
+
+.site-nav {
+	font-size: 0.75em;
+	font-family: sans-serif;
+}
+
+.site-nav a {
+	line-height: 1;
+	padding: 1em;
+	color: black;
+	white-space: nowrap;
+}
+
+.symptomList a:hover,.causeList a:hover,.actionList a:hover,.flyout-alt:hover>a,.flyout:hover>a {
+	color: white;
+	background-color: #0096D6;
+}
+
+.flyout-alt,.flyout,.flyout-content {
+	background-color: white;
+}
+
+.site-nav a
+{
+border:0px;
+}
+.site-nav>li>a {
+	border-left-width: 1px;
+}
+/* The first link in the site-nav doesn?t require a border at all. */
+.site-nav>li:first-child>a {
+	border: none;
+}
+
+.site-nav .flyout-alt:hover>.flyout-content {
+	top: -1px;
+}
+
+@
+-moz-document url-prefix (){ .symptomList ,.causeList,.actionList
+	{ 
+	position:absolute;
+	top: 350px;
+	left: 222.5px;
+	text-decoration: none;
+	width: 199px;
+	height: 19px;
+	z-index: 20;
+	border: 1px solid #B9B8B9;
+	box-shadow: inset 1px 1px 2px #888888;
+	vertical-align: middle;
+	display: none
+}
+
+}
+.ofDivCheck {
+z-index: 20;
+position: absolute;
+display: none;
+right: 0px;
+top: 23px;
+}
+.OfImageBurger {
+	width: 20px;
+	height: 13px;
+}
+.ofNewClassLine {
+	margin-right: 5%;
+	float: right;
+	color: #0096D3;
+	cursor: pointer;
+}
+.ofLineOverlay{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	display: none;
+	bottom: -225px;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.5;
+}
+.ofBurgerIconFloat
+{
+position:relative
+}
+.ofReturnDetailsButton{
+	padding: 4px 5px;
+	background: #FF4719;
+	border-top-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	color: #fff;
+	float: right;
+	margin: 0 1px 0 0;
+	cursor: pointer;
+	width: 44px;
+	text-align: center;
+	margin-left: 4px;
+}
+.ofHiddenEmptySpace{
+	background-color: #fff;
+}
+.ItemUsageTable tr td, .ItemUsageTable tr td input{
+	text-align:center;
+}
+.ofReturnDetailsPopup {
+	background-color:#FFFFFF;
+	border:1px solid #999999;
+	cursor:default;
+	display:none;
+	margin-top: 15px;
+	text-align: left;
+	width: 670px;
+	z-index: 50;
+	padding: 0px 5px 5px 5px;
+	left: 27%;
+	top: 20%;
+	background-color: rgb(175,194,218);
+	position: fixed;
+}
+.ofReturnDetailsPopupTaskbar {
+ 	 background-color: rgb(175, 194, 218);
+ 	 height: 25px;
+ 	 width: 100%;
+}
+.ofReturnItemComments {
+	width: 92%;
+	height:70px;
+	display: block;
+	/*margin: 0 0 25px 21px;*/
+	 border: 1px solid #B9B8B9;
+	overflow-y: scroll;
+}
+.ofReturnItemComments span{
+	float: left;
+	margin-left: 8px;
+}
+.ofReturnDetailsDiv {	
+	/*width: 315px;
+	margin-top: 25px;*/
+width: 100%;
+margin-top: 25px;
+}
+.ofReturnDetails{
+	display: inline-block;
+width: 58%;
+}
+.ofItemReturnDetailsPopupTableLength{
+	padding: 20px 0 0 0;
+width: 100%!important;
+}
+.ofItemReturnDetailsPopupTableLength td{
+	//background-color: lightblue;
+	padding: 7px 20px !important;
+	color : #000;
+	//border: solid 1px #fff!important;
+}
+.ofItemReturnDetailsPopupTableLength th{
+	//background-color: #0096D6 !important;
+	padding: 6px 6px !important;
+}
+
+.ofReturnDetailsDiv span{
+	float: left;
+	margin-left: 8px;
+}
+.ofReturnDetailsInput{
+	background-color: white;
+	border: 1px solid #B9B8BB;
+	height: 19px!important;
+	width: 89%!important;
+	text-align: left!important;
+	padding-left: 8px;
+}
+
+.ofReturnDetailsComments {
+	width: 595px;
+}
+.ofItemReturnDetailsComments {
+	height: 70px;
+width: 99%;
+padding-top: 5px;
+padding-left: 1%;
+}
+#itemReturnDetailsComments {
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: white;
+	resize: none;
+	height:70px;
+	width: 605px;
+	border: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: monospace !important;
+}
+.ofItemReturnCommentBox{
+	margin-top: 25px;
+	text-align: left;
+	margin-left: 25px;
+}
+.ofCloseButtonReturnDetails,.ofReturnDetailsPopupTaskbar a.ofClBt{
+	cursor: pointer;
+	float: right;
+	margin: 0px !important;
+	background: url('/hpi-s/images/HP_SPRITE.png') no-repeat scroll -128px -52px transparent;
+	width: 20px !important;
+	height: 22px;
+}
+
+/***********************************End of Call Report Page Popup style***********************************/
+/**************************  End of Style for Call Reporting ******************************************/
+/***************************  Accordion effects  *************************************************/
+.ofAccordionBlock {
+	margin: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.ofAccordionTarget span {
+	margin: 0 30px 0 30px;
+}
+
+.ofAccorWraper1 {
+	background-color: #B9B8BB;
+	padding: 15px;
+	width: 95%;
+	border: 1px solid #767676;
+	margin: 15px 0 0 12px;
+	border-bottom-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+}
+
+.ofAccorWraper1 span {
+	color: #fff;
+}
+
+.ofAccorWraper2 {
+	border: 1px solid #0096D3;
+	padding: 15px;
+	width: 96.5%;
+	margin: 20px 0 0 0px;
+	border-bottom-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	font-size: 14px;
+}
+.ofHierarSpan {
+	color: #0096D3;
+}
+
+.ofTableData {
+	margin-top: 20px;
+}
+
+.ofTableTitle {
+	padding-bottom: 10px;
+	color: #0096D6;
+}
+
+.OfPagerLink {
+	text-decoration: none;
+	background: #B9B8BB;
+	border: 1px solid #767676;
+}
+
+.OfPagerLink span {
+	color: #767676;
+	width: 400px;
+	text-decoration: none;
+}
+
+.ofaddedClass span {
+	margin: 0 30px 0 30px;
+}
+
+/****************************  End of Accordion effects  *******************************************/
+.ofCancelItemOrder {
+	width: 30px;
+	text-align: center;
+	height: 25px;
+	margin-left: 9px;
+	padding-top: 7px;
+	font-size: medium;
+	background-color: #D7410B;
+	border-top-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+}
+th span {
+	color: #fff;
+}
+
+.ofEngiInfoTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+.ofEngiInfoTable input {
+	width: 95%;
+	height: 85%;
+}
+
+.ofEngiInfoTable td {
+	border: 1px solid #B9B8B9;
+	padding: 2px !important;
+}
+
+.ofEngiInfoTable th {
+	color: #fff;
+	border: 1px solid white;
+	text-align:center!important
+}
+
+.ofHiddenDiv {
+	width: 30px;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.ofCallAdd {
+	float: right;
+	margin-right: 10px;
+}
+
+.ofCallCancel {
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	border-bottom-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+}
+/**************************  Style for Engineer table 1 info  *****************************************/
+.ofEngiTable1 {
+	width: 100%;
+	border: none !important;
+	background-color: #B9B8BB;
+}
+
+tr {
+	margin-top: 3px;
+}
+.ofTableHead {
+	height: 15px;
+	background-color: #000000;
+	color: #fff;
+	border-color: #fff;
+}
+
+.ofTableContent {
+	height: 24px;
+	color: #B9B8BB;
+	background-color: #fff;
+	width: 100%;
+}
+
+.ofTableContent select {
+	width: 100%;
+}
+
+.ofAccordionTableInput {
+	width: 94% !important;
+	height: 84% !important;
+	border: 0px !important;
+}
+
+.ofTableReturn
+{
+
+/*width: 610px!important;*/
+width: 626px!important;
+margin-left: 24px;
+}
+
+.ofTableReturn th {
+//padding: 7px 20px !important;
+padding: 7px 14px !important;
+width:31.67%
+}
+.ofShipNum
+{
+display: inline-block;
+margin-left: 4%;
+width: 30%;
+}
+.ofTableReturn th.ofHiddenDiv {
+width:5%;
+background-color:white
+}
+.ofAddNewReturn
+{
+margin-top: 10px;
+text-align: right;
+margin-right: 9%;
+text-decoration: none;
+}
+.ofTableReturn td {
+/*padding: 5px 20px !important;*/
+/*padding: 2px 20px !important;*/
+padding: 2px 14px !important;
+color: #000;
+width: 31.67%;
+}
+.ofTableReturn td.ofHiddenDiv {
+width:5%;
+
+}
+
+.ofTableReturn td.ofHiddenDiv.ofNoPadding
+{
+padding:0px!important;
+}
+
+/**************************  End of Style for engineer table 1 info  **********************************/
+
+/***********************************  New Call  *******************************************************/
+.ofSerialCallSelection {
+	background: #E6F5FF;
+	color: #0096D6;
+	margin: 5px;
+	padding: 5px;
+	border: solid 1px #0096D6;
+}
+.ofNoDisplay{
+display:none!important;
+}
+.ofShowDisplay
+{
+display:block!important;
+text-align: center;
+}
+.ofEngTableDataDiv{
+	height:240px;
+	overflow-x:hidden;
+	border-bottom: 1px solid rgb(156, 156, 156);
+}
+.ofSerialDatadiv{
+	height: 240px;
+	overflow-x: hidden;
+	display: block;
+	margin-left:1px;
+	border-bottom: 1px solid rgb(156, 156, 156);
+}
+.ofPopupNavigation{
+	display: inline-block;
+	width: 100%;
+}
+.ofCommentInput{
+	width:500px;
+	border: 0px;
+	font-family:monospace;
+}
+.ofCallSearchTable table tr td {
+	padding: 0px;
+}
+.ofNewSrchIcon
+{
+	height: 20px;
+	width: 20px !important;
+	display: inline-block;
+	background: url('/hpi-s/images/HP_SPRITE.png') no-repeat scroll -128px -26px transparent;
+	cursor: pointer;
+}
+.ofSerialCallSelection input {
+	width: 30%;
+}
+
+.ofSerialCallSelection span {
+	width: 30%;
+	margin: 15%;
+}
+
+.ofNewCall {
+	margin: 5px;
+	background: #E6F5FF;
+}
+
+.ofNewCall table {
+	text-align: left;
+	border: 1px solid #0096D6;
+	width: 100%;
+	padding: 10px;
+}
+.ofNewCallHeading {
+	color: #0096D3;
+}
+.ofDescrInput {
+width: 510px !important;
+}
+
+td textarea {
+	width: 94%;
+	margin-top: 5px;
+}
+
+.ofNewCall td {
+	text-align: left;
+	margin: 0 0 10px 20px;
+	padding: 7px 0 7px 20px;
+	background-color: #E6F5FF;
+}
+
+.ofNewCallContent {
+	color: #000000;
+}
+
+.ofNewCallBorder {
+	color: #0096D3;
+	border-top: 1px solid #0096D3;
+}
+
+.ofserialsearchFields {
+	color: #0096D6;
+	border: 1px solid #0096D6;
+	margin: 4px;
+	padding: 10px;
+}
+
+.ofserialsearchFields span {
+	margin-left: 20%;
+}
+
+.ofserialsearchFields div {
+	width: 30%;
+	height: 25px;
+	display: inline-block;
+	border: 1px solid #B9B8BB;
+}
+
+.ofserialsearchFields div input {
+	border: 0px solid;
+}
+
+.ofserialsearchFields div img {
+	margin: 2px;
+	float: right;
+	width: 5%;
+}
+
+.ofSrchIcon {
+	border: 1px solid #B9B8BB;
+	width: 160px;
+	height: 21px;
+	cursor: text;
+	margin-top: 2px;
+}
+
+.ofSrchBox {
+	border: 1px solid #B9B8BB;
+	height: 20px;
+	cursor: text;
+}
+
+.ofSrchBox input {
+	border: none;
+	width: 73%;
+}
+
+.ofSerialSearchDiv,.ofSerial {
+	float:left;
+}
+.ofSerialSearchDiv div{
+	height: 45px;
+}
+ 
+.ofNewCallSerialSearch,.ofNewCallDiv1 {
+	display: inline-block;
+}
+.ofSerialSearch {
+	width: 532px;
+	height:45px;
+	display: block;
+}
+.ofCallSearchTable {
+	margin: 0 20px 0 20px;
+	display: table;
+	min-width:904px;
+}
+
+.ofCallSearchTable div {
+	margin-bottom: 7px;
+}
+
+#searchProductSerialId
+{
+margin-bottom: 2px!important;
+float:left;
+}
+.ofNewCallDiv13 {
+	display: inline-block;
+	width: 177px;
+	float:left;
+}
+label {
+	color: #0096D3;
+}
+
+.ofSerialSrchIcon {
+	border: 1px solid #B9B8BB;
+	width: 158px;
+	height: 21px;
+	cursor: text;
+	margin-right: 18px;
+	margin-top: 2px;
+}
+.ofSerialSrchIconAlert {
+	border: 1px solid red;
+	width: 163px;
+	height: 20px;
+	cursor: text;
+	margin-right: 18px;
+}
+.ofSerialSrchIcon input {
+	border: none;
+	height: 85%;
+	width: 84%;
+	margin-right: 0px !important;
+	float:left;
+}
+
+.label_spacing{
+	margin-top: 2px;
+}
+.ofPurchaseInput{
+	display: inline-block;
+	width: 338px;
+}
+
+#purchaseOrder{
+	width:332px;
+}
+#spanForCurrentUser{
+font-family: monospace;
+}
+
+.ofCallSearchTableSection {
+	display: inline-block;
+}
+.ofPageNavPosition{
+	display:inline-block;
+	float:right;
+	margin: 15px;
+	min-width: 230px;
+}
+.ofFixedDropDownHidden{
+	display:none;
+}
+.ofFixedDropDownShow{
+	display:block;
+}
+.ofPopupTable{
+	width: 100%;
+	min-width: 100% !important;
+	margin: 0px auto;
+}
+
+.ofNewCallBannerBlue {
+	background-color: #E6F5FF;
+}
+
+/***********************************  End of New Call  ************************************************/
+
+/***********************************  code for Sprite Images  *****************************************/
+.ofHpLogo {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -24px -198px;
+	height: 28px;
+	width: 28px;
+	display: inline-block;
+	margin: 0 10px 0 20px;
+}
+
+.ofNewClassIcon {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -106px -30px;
+	height: 14px;
+	width: 14px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.ofNewClass .ofNewClassIcon:hover {
+	background-position: -106px -56px;
+}
+
+.ofAccordionArrow {
+	float: right;
+	margin: 0 !important;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -103px -103px;
+	width: 20px;
+	height: 22px;
+	cursor: pointer;
+}
+.ofAccordionArrowDownward
+{
+
+        float: right;
+	margin: 0 !important;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -126px -103px;
+	width: 20px;
+	height: 22px;
+	cursor: pointer;
+
+}
+.ofAccordionArrow:hover {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -103px -127px;
+}
+.ofAccordionArrowDownward:hover {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -126px -127px;
+}
+.ofaddedClass .ofAccordionArrow {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -128px -103px;
+	cursor: pointer;
+}
+
+.ofaddedClass .ofAccordionArrow:hover {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -128px -128px;
+}
+
+.ofTableHeadingIcon {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -130px -181px;
+	display: inline-table;
+	float: right;
+	margin-top: -18px;
+	width: 14px;
+	height: 14px;
+}
+
+.ofEnterIcon {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -130px -80px;
+	float: right;
+	margin: 7px 3px 2px 2px;
+	-webkit-margin: -22px 3px 2px 2px;
+	-moz-margin: -22px 3px 2px 2px;
+	width: 14px;
+	height: 14px;
+	padding-bottom: 8px;
+}
+#dropDownUl
+{
+top:0px!important;
+}
+.ofCallUpdateFields span, input, select {
+width: 160px;
+margin-right: 20px;
+vertical-align: middle;
+padding-left: 2px;
+font-size: 13px;
+line-height: 19px;
+}
+.ofBurgerIcon {
+	float: right;
+cursor: pointer;
+border-radius: 3px 0px 3px 0px;
+width: 18px;
+padding: 3px;
+border: 1px solid #0096D6;
+margin: 11px 1px 0 0;
+height: 18px;
+background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -22px -175px;
+}
+.ofBurgerIcon:hover
+{
+
+	float: right;
+cursor: pointer;
+border-radius: 3px 0px 3px 0px;
+width: 18px;
+padding: 3px;
+border: 1px solid #006699;
+margin: 11px 1px 0 0;
+height: 18px;
+background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -22px -175px;
+}
+
+.ofCancelIcon {
+	float: right;
+	width: 40px;
+	height: 40px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -97px -351px;
+}
+.positionSearchAndDrop
+{
+top: 101% !important;
+}
+.ofOptionUpArrow {
+	position: absolute;
+	top: -10px;
+	left: 33px;
+	width: 15px;
+	height: 15px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -130px -205px;
+}
+.ofOptionUpArrowDropList,.ofOptionUpArrowDrop {
+	position: absolute;
+	top: -10px !important;
+	left: 28px;
+	width: 15px;
+	height: 15px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -130px -205px;
+}
+
+.ofCallTableHeading ul li:hover {
+
+background:#0096D3
+}
+
+.ofCancelImage {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -49px -177px;
+	display:inline-block;
+	border-bottom-left-radius: 0.6em;
+	border-top-right-radius: 0.6em; 
+}
+.ofCancelImageDisabled {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -151px -178px;
+	display:inline-block;
+	border-bottom-left-radius: 0.6em;
+	border-top-right-radius: 0.6em;
+	cursor: default;
+}
+/***********************************  end of Sprite Images  *****************************************/
+.OfButtonDisabled {
+	background-color: gray;
+	color: white;
+	font-weight: bold;
+	font-size: 11pt;
+	border: 2px solid gray;
+	cursor: default;
+}
+
+.ofNoFilterInvisible {
+	width: 100%;
+	height: 20%;
+	display: none;
+}
+
+.OfNoFilterVisible {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 10%;
+	padding-top: 10px;
+	color: gray;
+	font-size: 40px;
+}
+
+.ofCommonClassDrop {
+	position: absolute;
+}
+
+.ofRowSelected {
+	background-color: #0096D6 !important;
+	color: white !important;
+}
+
+.ofRowSelected a {
+	color: white;
+}
+
+/***********************************Start of Comment Style*********************************************/
+#fixedDivComments {
+	background-color: white !important;
+	height: auto;
+	resize: none;
+	width: 100%;
+	border: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: monospace !important;
+}
+.testMultipleInput{
+	overflow-x: auto;
+	height: 100px;
+	margin: 0px 4px;
+	border: 1px solid #B9B8BB;
+       padding: 5px;
+}
+.testMultipleInput span, .testMultipleInput div{
+	font-family: monospace;
+}
+.ofMainDivComments {
+	height: 110px;
+	width: 100%;
+word-wrap: break-word;
+margin-top: 2px;
+}
+
+.ofDisabledComments {
+	font-family: monospace !important;
+	font-size: 13.5px !important;
+}
+#redirectToPartOrdering,#redirectToCallReporting,#redirectToCallStatus
+{
+color:white;
+padding-left: 7px;
+}
+.ofWrapperStatus #engSearchPopupTable .enWidth, .ofWrapperStatus #engSearchPopupTable .egWidth {
+width: 174px!important;
+}
+#innerDivComments {
+	margin-bottom: 0px;
+	display: table;
+	width: 100%;
+}
+
+#textboxInputComments {
+	border: 0px;
+	width: 700px;
+	margin-bottom: 0px;
+	font-family: monospace !important;
+	margin: 0px !important;
+}
+.ofCommentsSpan {
+	margin-left: 22px;
+	color: #0096D3;
+}
+
+#labelComments {
+	display: table-cell;
+	white-space: nowrap;
+}
+
+#tableSpan {
+	display: table-cell;
+	width: 100%;
+}
+
+#textboxInputComments:focus,#textAreaInputComments:focus {
+	outline: 0;
+	font-family: monospace !important;
+}
+
+/***********************************End of Comment Style*********************************************/
+.Oful {
+	margin-left: 82%;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px 4px #888888;
+	top: 135px;
+	}
+
+.Oful input {
+	width: 25px;
+}
+
+.OfHeaderPart {
+	height: 20%;
+	width: 100%;
+}
+.select-editable{
+	position:relative;
+}
+.OfBottomPart {
+	width: 100%;
+}
+
+.OfNavigationBar {
+	width: 12.5%;
+	float: left;
+	margin-top: 2px;
+	font-size: 14px;
+	position:relative;
+
+}
+
+.ofMainWrapper {
+	display: inline-block;
+	max-width: 1003px;
+	font-size: 14px;
+	float: left;
+	width:100%;
+}
+.ofWrapperStatus
+{
+width:87.5%!important;
+}
+.ofWrapperStatus .ofFieldWidth
+{
+//width: 103% !important;
+width: 98% !important;
+}
+nav {
+	float: left;
+	width: 100%;
+	display: inline-block;
+}
+/*Custom place holder css*/
+.inputfield_ui{
+    background-color:transparent;
+    border:1px solid #ccc;
+}
+.customLabelPlaceholder {
+    position:absolute;
+    display:block;
+    margin-top:-17px;
+    padding-left:5px;
+    z-index:-1;
+    color:#ccc;
+}
+input:focus + label {display: none;}
+
+.parentSpan{
+  display:inline-block;
+}
+
+
+
+
+/**** Of call list table page QAD ****/
+
+#buttonGetCheckedData {
+	margin-left: 3px;
+background-color: #0096D6;
+border-top-right-radius: 0.3em;
+border-bottom-left-radius: 0.3em;
+display: block;
+padding: 8px 44%;
+}
+#buttonGetCheckedData:hover{
+	background: #006699;
+	color: white;
+	cursor: pointer;
+}
+#ul2 {
+	width: 210px;
+	border: 1px solid black;
+	background-color: white;
+	box-shadow: -5px 5px 7px #88888A;
+	margin-top: 24px;
+}
+
+.ofDownArrowImageFilter {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -107px -179px;
+  height: 13px;
+	width: 12px;
+	position:absolute;
+	right:1px;
+}
+
+.ofDivBurgerHeading {
+	font-size:14px;
+	max-width: 100%;
+	border-bottom: 1px solid skyblue;
+	padding: 2.5px 11px 2.5px 11px;
+}
+
+.ofLiBurger {
+	max-width: 100%;
+}
+
+.ofLabelBurger {
+	color: black;
+	font-family: inherit;
+	padding-left: 10px;
+}
+
+#okBurgerButtonID {
+	padding:8px;
+}
+.ofSpanBurgerOkBtn {
+	margin-right: 1px;
+	cursor: pointer;
+color:white !important;
+}
+.ofMyCheckbox  {
+	width: 22px;
+	height: 16px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -151px -103px;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+}
+.ofMyCheckboxDisabled{
+	width: 22px;
+	height: 16px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -151px -103px;
+	border: none;
+	display: inline-block;
+cursor: default !important;
+	
+}
+.ofUncheckedBox{
+	width: 22px;
+	height: 16px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -153px -129px;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+}
+
+ .ofUnclickable  .ofLabelBurger
+ { 
+ 	text-decoration: none; 
+	color: #B9B8BB;
+	font-family: inherit;
+	padding-left: 10px;
+ 
+ }
+ .ofUnclickable:hover 
+ {
+  cursor: default;
+   }
+
+/******CODE 11JULY UPDATED*********/
+
+/**********7/7/14***************/
+.ofTableAnchor {
+	text-decoration: underline;
+	color: #0096D6; 
+	cursor: pointer;
+}
+#ofItemOrderPopUp {
+	display: none;
+	position: fixed;
+	width: 700px;
+	height: 370px;
+	background: #fff;
+	top: 22%;
+	box-shadow: 0px 0px 7px #000;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	z-index:11;
+}
+
+.ofTableWrapper {
+	display: inline-block;
+}
+
+.ofTopTaskbar {
+	color: #fff;
+	padding: 10px;
+	background: #0096D3;
+	text-align: center;
+}
+
+.ofNewEngiSrchIcon {
+	float: right;
+	margin: 0 !important;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -127px -27px;
+	width: 20px !important;
+	height: 21px;
+	cursor: pointer;
+}
+
+.ofCloseButton,.ofCloseButtonSys {
+	cursor: pointer;
+	float: right;
+	margin: 0px !important;
+	background: url('/hpi-s/images/HP_SPRITE.png') no-repeat scroll -128px -52px
+		transparent;
+	width: 20px !important;
+	height: 22px;
+}
+
+/****************************14/7/14***********************/
+#textAreaInputComments
+{
+	box-sizing:border-box;
+	overflow:auto;
+	background-color:white;
+	resize: none;
+	height: 100px;
+	width:900px;
+	border:0px;
+	margin-top:0px;
+	padding-top:0px;
+	font-family:monospace!important;
+}
+
+
+.ofAnotherNewClass {
+	padding-right: 5%;
+	float: right;
+	color: #B9B8BB;
+}
+
+.ofPopupOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 500%;
+	display: none;
+	bottom: -225px;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.5;
+z-index:10
+}
+
+
+/**************** UPDATED ON 17 JULY FOR NEW FIELD 'LINE'****************/
+
+
+/******** PART OREDERING STYLESHEET *************/
+.ofDisplayPartOrderContainer{
+	max-height: 270px;
+	overflow-x:hidden;
+	margin: 0px 5px;
+}
+
+.ofAppend {
+	margin-top: 20px;
+	padding-left:4px;
+}
+
+.ofNewOrderTitle {
+	text-align: center;
+	color: #0096D6;
+}
+
+.ofPreviousPartOrder {
+	padding: 10px 0 10px 15px;
+	margin: 5px 0px 0px 10px;
+	display: inline-block;
+	width: 960px;
+}
+
+.ofPreviousPartOrder .ofNewOrderTable{
+	background: #B9B8BB;	
+}
+
+.ofPreviousPartOrder .ofNewOrderTable div input{
+	background: #B9B8BB;
+}
+
+.ofSrchItem{
+	border: 1px solid #B9B8BB;
+	width: 100px;
+}
+
+.ofPartQuantity {
+	width: 90px;
+	display: inline-block;
+}
+
+.ofNewPartOrder {
+	padding: 10px 0 10px 15px;
+	margin: 5px 0px 0px 10px;
+	display: inline-block;
+	width: 960px;
+}
+
+.ofNewOrderTable {
+	width: 770px;
+	padding: 10px 10px 10px 5px;
+	color: #0096D6;
+	display: inherit;
+	border: 2px solid #0096D6;
+	border-top-right-radius: 0.8em;
+	border-bottom-left-radius: 0.8em;
+}
+
+.ofCancelItem {
+	display: inline-block;
+	cursor: pointer;
+	margin: 1px 2px -7px 9px;
+}
+
+.ofShipVia{
+	display: inline-block;
+}
+
+.ofAddNewOrder {
+	margin-top: 10px;
+	padding-bottom: 40px;
+}
+
+.ofNewClass {
+	margin-right: 5%;
+	float: right;
+	color: #0096D3;
+	cursor: pointer;
+}
+.ofDisplayPartOrderContainer .ofCrossLogo
+{
+margin-left:-4px !important
+}
+.ofDisplayPartOrderContainer
+.ofNewClass:hover {
+	color: #006699;
+}
+
+
+.ofAnotherNewClass span {
+	background-position: -106px -82px;
+}
+/* END OF PART OREDERING STYLESHEET */
+
+
+
+
+#loader{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+left:0;
+	z-index:114;
+	
+}
+.load{	
+	top: 0px;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.5;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+#statusDropDown{
+	margin-right:30px!important;
+}
+ .select-editable{
+       position: relative;
+	background-color: white;
+	width: 157px;
+	height: 20px !important;
+	margin-top: 2px;
+}
+ .select-editable select {
+	position: relative;
+	font-size: 13px;
+	border: 1px solid rgb(170, 169, 169);
+	width: 157px;
+	margin: 0;
+	height: 23px !important;
+	line-height: 20px;
+ }
+ .select-editable input {
+	position : absolute;
+	top : 1px;
+	left: 6px;
+	width: 128px;
+	padding: 1px;
+	font-size: 13px;
+	height: 16px;
+	border: none;  
+}
+ .select-editable select:focus, .select-editable input:focus {
+     outline:none;
+ }
+ #callerValue,#callerName{
+	/*text-transform: uppercase;*/
+ }
+#severityDropDown,#severityDropDown option{padding-left:0 !important;}
+#severityDropDown option{border-right: 2px solid #696969;}
+.ofStatus .ofCallUpdateFields span,.ofStatus  input,.ofStatus  select{
+/*width: 125px;*/
+width:100%;
+vertical-align: middle;
+padding-left: 2px;
+font-size: 14px;
+line-height: inherit;
+height: 23px;
+box-sizing: border-box;
+}
+.ofCheckBox {
+	margin-right: 5px;
+	height: 20px;
+	width: 20px!important;
+}
+.ofStatus #callerValue
+{
+height:21px;
+    border: none!important;
+padding-left: 0px;
+}
+.ofCallUpdateFields span{
+	width: 130px;
+	margin-right: 0px !important;
+	vertical-align: middle;
+	padding-left: 2px;
+	font-size: 14px;
+}
+.ofHiddenAckMessageDisplay{
+	width: 545px;
+	max-height: 36px;
+	background-color: white;
+	border: 1px solid #B9B8BB;
+	line-height: normal;
+	margin: 0 auto;
+	position:relative;
+	overflow-y: auto;
+}
+
+#textBoxForComments{
+	width:460px;
+	border: 0px;
+	font-family:monospace;
+	resize:none;
+}
+.ofSrchIcon input {
+	border: none;
+	float:left;
+	height: 85%;
+	width: 83%;
+	margin-right: 0px !important;
+}
+.ofCallUpdate {
+	margin-bottom: 30px;
+}
+.ofDisabledInput{
+	background-color:#fff;
+	border: 1px solid #B9B8BB;
+	height: 21px;
+	width: 80%;
+}
+
+.ofSrchItem input {
+width: 77px;
+margin: 0;
+border: none;
+height: 20px;
+}
+
+.ofPartorderDetails {
+width: 105px;
+display: inline-block;
+}
+
+.ofPartDescription {
+width: 117px;
+display: inline-block;
+}
+
+.ofPartDescription input {
+width: 111px;
+margin: 0px;
+border: 1px solid #B9B8BB;
+height: 20px;
+}
+
+.ofPartQuantity input {
+width: 84px;
+border: 1px solid #B9B8BB;
+height: 20px;
+}
+
+.ofPartStatus {
+width: 77px;
+display: inline-block;
+}
+.repairableDiv{
+	width:70px;
+	display: inline-block;
+}
+.ofPartStatus input {
+height: 20px;
+width: 71px;
+border: 1px solid #B9B8BB;
+}
+.repairableDiv input {
+height: 20px;
+width: 64px;
+border: 1px solid #B9B8BB;
+}
+.ofCrossLogo{
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -43px -175px;
+	height: 22px;
+	width: 28px;
+	display: inline-block;
+	margin: 4px;
+cursor: pointer;
+}
+.ofCrossLogoDisabled{
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -153px -175px;
+	height: 22px;
+	width: 28px;
+	display: inline-block;
+	margin: 4px;
+}
+
+.ofNewOrderTableRow{
+	padding-top:20px;
+	
+}
+#displayPartOrderContainer .ofAppend{
+	margin-top:0px;
+}
+
+.ofItemBrowsePopupTableDiv{
+	height:235px;
+	overflow-x:hidden;
+	margin-left:1px;
+	border-bottom: 1px solid rgb(156, 156, 156);
+}
+#itemBrowsePopupTableDiv td:first-child
+{
+padding-left: 0px!important;
+padding-right: 0px;
+text-align: center !important;
+}
+
+#ofItemOrderPopUp  .ofTableHeading 
+{
+margin-right: 8px!important;
+}
+ 
+#partOrderBrowseTable .ofPartNumber{
+width:11.5%
+
+}
+#partOrderBrowseTable .ofProdDesc{
+width:27%
+}
+#partOrderBrowseTable .ofProdLine{
+	width:47px;
+
+}
+#partOrderBrowseTable .ofSysType{
+width:8.5%
+
+}
+#partOrderBrowseTable .ofQtyOnHand{
+width:8.5%
+}
+#partOrderBrowseTable .ofSite{
+	width:40px;
+}
+#partOrderBrowseTable .ofCost{
+width:8.5%
+}
+.ofPartNumberTd
+{
+color: #006699!important;
+}
+#myTablepopupPartOrdr .ofPartNumberTd{
+	width: 78px;
+}
+#myTablepopupPartOrdr .ofProdDescTd{
+	width:187px;
+
+}
+#myTablepopupPartOrdr .ofProdLineTd{
+	width:62px;
+}
+#myTablepopupPartOrdr .ofRepairTd{
+	width:72px;
+}
+#myTablepopupPartOrdr .ofRestrictTd{
+	width:70px;
+
+
+}
+#myTablepopupPartOrdr .ofSysTypeTd{
+	width:58px;
+}
+#myTablepopupPartOrdr .ofQtyOnHandTd{
+width:58px
+}
+#myTablepopupPartOrdr .ofSiteTd{
+	width:39px;
+
+}
+.ofDisabledTag{
+	position: relative;
+	z-index: -1;
+	color: gray;
+}
+.ofDisabledTag:hover{
+	color: gray!important;
+cursor: default;
+ 
+} 
+.ofDisabledIcon{
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -106px -82px!important;
+}
+/**********************************************css Modifications *********************************************************/
+
+.ofCallInputWraper , .ofCallInputWraperList{
+	position: absolute;
+top: 43px;
+	width: 130px;
+	background-color: #fff;
+	z-index:1;
+	box-shadow: 1px 1px 2px #999;
+	
+}
+.ofMessagePopConfirmStatus
+{
+display: block;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+cursor: default;
+margin-top: 15px;
+text-align: left;
+width: 450px;
+z-index: 50;
+padding: 0 5px 5px 5px;
+left: 34%;
+top: 35%;
+background-color: rgb(175, 194, 218);
+position: fixed;
+z-index: 112;
+}
+#popupStatusDiv
+{
+background-color: white;
+}
+#popupStatusDiv #PopupMessageDivComments
+{
+margin-top: 5px;
+padding-bottom: 7px;
+width: 311px;
+font-size: medium;
+margin-left: 79px;
+}
+#popupStatusDiv #commentsLinkDiv{
+margin-left:159px;
+}
+
+.ofCallInputWraper input,.ofCallInputWraperList input {
+	width: 95px;
+	position: absolute;
+	line-height: 18px;
+}
+.OfMoreInput .ofCallInputWraper {
+	margin-top: 5px !important;
+}
+
+
+.ofCallInputWraper12 input {
+	width: 85px;
+	position: absolute;
+}
+
+.ofCallInputWraper12 {
+	position: absolute;
+	
+	top: 221px !important;
+	width: 112px !important;
+	
+	height: 28px;
+	background-color: #fff;
+	border: 1px solid #6a6a6a;
+	z-index: 1;
+	box-shadow: 1px 1px 2px #999;
+}
+
+.ofCallTablePopupDrpDwn,.ofTablePopupDrpDwn {
+	position: absolute;
+	margin-left: 0px;
+	background-color: #F5F5FA;
+	border: 1px solid #383838;
+	z-index: 1;
+	border-style: none;
+	min-width: 60px;
+	box-shadow: 0px 2px 7px 3px #CCC;
+	top:0px !important;
+	max-height:200px;
+	overflow-x:hidden;
+}
+
+.ofDownArrowImageList, .ofDownArrowImage {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -130px -179px;
+	height: 13px;
+	width: 12px;
+	right: 1px;
+	position: absolute;
+ 	bottom:17px;
+}
+.ofCallListTable .ofDownArrowImage, .ofCallListTable .ofDownArrowImageFilter {
+	bottom: 19px;
+}
+
+.ofCallStatusPopup .ofDownArrowImage, #tablepopupSearchEng .ofDownArrowImage, #tablepopupSearchEng .ofDownArrowImageFilter{
+bottom: 18px!important;
+}
+#NoMatchDivEng
+{
+padding-top:8px;
+}
+#ofItemOrderPopUp .ofDownArrowImage{
+	bottom: 18px!important;
+}
+.ofCallListTable .ofDownArrowImageFilterList {
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -107px -179px;
+	height: 17px;
+	width: 12px;
+right:-1px;
+	position:absolute;
+	bottom: 13px;
+}
+
+.ofCallListTable .ofDropDownCallListTable ,.ofDropDownPopup, #openCallsDropdown{
+	bottom:-1px;
+	position: absolute;
+}
+.ofCallStatusPopup .ofDropDownPopup, #popupforengineerid #ofDropDownPopupTable{
+	bottom: 0px!important;
+}
+#ofListLastColumn {
+margin-left: -21px;
+}
+.ofLineCallReport{
+	width:35px;
+}
+.ofItemMaterialOrder{
+	min-width:84px;
+}
+.ofReturnStatusCallReport{
+	width: 151px;
+}
+.ofDescriptioncallReport{
+	width:130px;
+}
+/********************************CallList Stylesheet**********************************************/
+.ofInputAndDropBoxDiv
+{
+display: block; 
+position: absolute;
+ bottom: 0px;
+}
+.ui-datepicker-month,.ui-datepicker-year
+{
+color:black !important;
+}
+.ui-datepicker-calendar tr
+{
+background-color:white !important;
+}
+div.ui-datepicker{
+
+background-color: white;
+
+}
+ 
+#calendarFrom
+{
+float:left;
+}
+#inputForAssignEngineer
+{
+width: 72px;
+margin-right: -7px;
+vertical-align: middle;
+padding-left: 2px;
+font-size: 14px;
+border: 1px solid rgb(173, 173, 173);
+border: none;
+padding-top: 4%;
+margin-top: 0px;
+margin-bottom: 2px;
+padding-bottom: 4%;
+}
+#firstLabel
+{
+display:inline-block;margin-left:32px
+}
+#datepickerto
+{
+height:130px;
+display:inline-block;
+}
+#okButtonCalendar
+{
+margin-left: 58%;
+}
+#enterIconForAssignEngineer
+{
+background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -130px -80px;
+float: right;
+margin: 7px 3px 2px 2px;
+-webkit-margin: -22px 3px 2px 2px;
+-moz-margin: -22px 3px 2px 2px;
+width: 14px;
+height: 14px;
+padding-bottom: 8px;
+}
+#spanForAssignEngineer
+{
+border: 1px solid gray;
+display: inline-block;
+width: 94px;
+height: 26px;
+}
+.calendarInputFromTo
+{
+width: 113px;
+height: 14px;
+margin-bottom: 4px;
+margin-right: 0px;
+}
+.labelCalendar{
+font-family: hp_simplifiedregular;
+font-size: 14px;
+color:black!important
+}
+.buttonOfCalendar
+{
+margin-top: 55px;
+width: 50px;
+
+}
+.ofOptionUpArrowDropForCalendar{
+position: absolute;
+top: -11px;
+right:-65px;
+width: 79px;
+height: 15px;
+background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -133px -204px;
+}
+#liforInputAssign:hover
+{
+position: relative;
+z-index: 1;
+font-size: 15px;
+color: #000000;
+background: #fff;
+text-align: left;
+padding: 5px 20px 5px 5px;
+width: 80%;
+}
+#containerDivForCalendar
+{
+position: absolute;
+width: 432px;
+right: 0px;
+top: 58px;
+background: white;
+padding-top: 7px;
+padding-left: 5px;
+border: 2px solid gray;
+padding-bottom: 4px;
+z-index : 1;
+text-align:center;
+}
+/*******************************CallReporting Stylesheet******************************************/
+
+.ofDisabledMultiDropDivTd
+{
+background-color: #E8E8E8;
+}
+.ofDisabledMultiDropSpanTd
+{
+color: gray!important;
+}
+.spanForCurrentUserItemReturn
+{
+font-family: monospace;
+color: black!important;
+margin-top: 3px;
+margin-left:0px!important;
+font-size:13px;
+height: 16px;
+}
+.ofDivForCurrentUserItemReturn
+{
+/*padding-top: 3px;*/
+}
+.ofInputForCurrentUserItemReturn
+{
+text-align: left!important;
+display: inline-block;
+width: 100%;
+font-family: monospace;
+float: left;
+margin-top: 0px !important;
+resize: none;
+height: 16px;
+border:0px;
+}
+.ofTotalDurationSpan
+{
+margin-left: 50%;
+margin-right: 10px;
+}
+.ofTotalDurationSpanValue
+{
+color: black!important;
+}
+.ofTimeInputSpan
+{
+border: none!important;
+width: 16px!important;
+margin-right: 0px!important;
+}
+.ofTimeInputSpan:focus {
+    outline: none;
+}
+.ofDivTimeInputSpan
+{
+display:block;
+}
+.ofUpdateAndStatusDiv{
+	display: inline-block;
+	width: 227px;
+	color: #0096D3;
+	text-align: center;
+	margin-left:25%;
+}
+
+.newUppercaseStatus{
+	text-transform: uppercase;
+}
+
+.ofAppendLeftPadding{
+	padding-left:15px;
+}
+.ofReportList
+{
+border-bottom: 1px solid #B9B8B9;
+}
+.ofUpdateAndStatusSpan
+{
+margin-left: 13%!important;
+}
+.ofEngineerLineDetailsSpan
+{
+margin: 9px!important;
+}
+.ofEnterEngineerDetailsSpan
+{
+margin:0px!important
+}
+.ofInputContainer
+{
+display:inline-block;
+left: 18px;
+}
+
+.ofDateInputReporting
+{
+position:absolute;
+top: 15px;
+right: -4px;
+z-index: 30!important;
+}
+.ui-datepicker-calendar th 
+{
+background-color:white!important
+}
+.ui-datepicker-calendar span
+{
+color:black!important
+}
+
+.ofDateInputReportingSpan
+{
+display: inline-block;
+height: 13px!important;
+width: 15px!important;
+position:relative !important;
+right: 2px;
+cursor: pointer;
+margin: 0px!important;
+background: url("/hpi-s/images/HP-SPRITE.png") no-repeat -156px -182px;
+}
+.ofAccorWraper2.ofClosedCallLine{
+	background: #E4E4E4;
+border:1px solid #E4E4E4;
+}
+.ofClosedCallLine .engiInfoSecondTable{
+	pointer-events: none;
+}
+.ofClosedCallLine .ofHiddenDiv,.ofClosedCallLine .ofNewClassLine, .ofClosedCallLine .ofSubmitAck{
+	display:none;
+}
+.ofClosedCallLine .ofClosedGreen{
+	padding-left:22px!important;
+}
+.ofClosedDownArrow{
+	//display:none;
+}
+.ofClosedCallLine .ofDownArrow{
+	display:none;
+}
+.ofClosedCallLine .ofClosedDownArrow,.ofClosedCallLine .ofClosedGreenCheck{
+	height: 14px;
+	width: 14px !important;
+	display: inline-block;
+	cursor: pointer;
+	background-size: 12px;
+	float: left;
+	margin-top: -14px;
+	background: rgb(94, 255, 94);
+	border-radius: 10px;
+	position: relative;
+	margin-left: 2px;
+}
+.ofClosedCallLine .ofEngiInfoTable.ItemUsageTable .ofClosedGreenCheck{
+	margin-top:0px;
+}
+.ofClosedCallLine .ofClickableInput{
+	visibility:hidden;
+}
+.ofclosedMaterialOrder{
+	display:inline-block;
+ 	color:black!important;
+}
+.ofClosedCallLine .ofAccorWraper2 .engiInfoSecondTable{
+	pointer-events: none;
+}
+.ofClosedCallLine .ofOptionsReporting.ofLabourTable,.ofClosedCallLine .ofExpensesTable.ofOptionsReporting{
+	padding-left:22px;
+}
+.ofClosedCallLine .ofDateInputReportingSpan,.ofClosedCallLine .ofTotalDurationSpan,.ofClosedCallLine .ofTotalDurationSpanValue{
+	display:none;
+}
+.ofClosedCallLine .ofUpdateAndStatusDiv,.ofClosedCallLine .ofTableTitle,.ofClosedCallLine.ofAccorWraper2 span {
+	color: #3F3F3F;
+}
+.ofClosedEngNameDiv{
+    width: 262px;
+    display: inline-block;
+}
+
+.ofBodyIfOverlay{
+	position:fixed;
+	width:100%;
+}
+.secondary_nav .expand_area .level3 .menu .selected {
+background-color: white!important;
+}
+.secondary_nav .expand_area a {
+background-color: white!important;
+color:black!important
+
+}
+.ofAccorWraper2 .ofTableHead
+{
+height:24px!important
+}
+
+.ofCallTablePopupDrpDwnatags a
+{
+color:black!important
+}
+#NoMatchDivId
+{
+margin-top: 9px;
+}
+#noMatchDivId
+{
+margin-top: 15px;
+}
+
+sup {
+vertical-align: top!important;
+}
+
+#callListTableForViewingAllCalls td:first-child {
+text-align: center;
+padding-left: 0px!important;
+}
+#callListTableForViewingAllCalls #containerDivForCalendar
+{
+top:44px !important
+}
+#callListTableForViewingAllCalls .ofCallListTable, #callListTableForViewingAllCalls .ofCallTableHeading 
+{
+height: 44px!important;
+}
+#engSearchPopupTable td:first-child {
+text-align: center;
+padding-left: 5px;
+}
+.ofDisabledLabelClass .ofNewSrchIcon
+{
+pointer-events:none
+}
+#engineerName {
+    text-align: left;
+}
+#dispatchEng {
+    height: 24px !important;
+margin-left: 20px;
+}
+
+
+#postionCheckbox {
+/*display: inline-block;
+margin-left: 22px;
+color: #0096D6;
+margin-top: 20px;
+width: 149px;*/
+display: inline-block;
+margin-left: 3%;
+color: #0096D6;
+margin-top: 20px;
+width: 23%;
+}
+
+.ofheightBig {
+height: 23px ! important;
+}
+.ofFieldWidth {
+width: 90%;
+}
+#callTypeDropDown {
+    margin-left: -5px;
+    width: 86%;
+}
+.ofWrapperStatus #callTypeDropDown
+{
+margin-left: 0px!important;
+width: 95%!important;
+}
+.ofStatus #callTypeDropDown
+{
+
+width: 100%!important;
+}
+
+
+#ofMenuCallId
+{
+padding-left: 12px !important;
+padding: 15px 0;
+color: black;
+text-decoration: none;
+font-size: medium;
+width: 103px!important;
+background: white;
+border: none;
+margin-right: 0px!important;
+border-bottom: 5px solid rgb(135,137,139);
+}
+
+.ofWrapperStatus #callTypePosition{
+margin-left: 0px!important;
+}
+#callTypePosition {
+    margin-left: -6px;
+}
+#searchIconPosition {
+    margin: 4px 0px 0px 6px;
+}
+
+#positionAlign {
+   display: inline-block;
+}
+
+.ofPageNavPosition span
+{
+display:inline-block;
+} 
+
+#phoneNumber
+{
+width: 82%;
+
+}
+#tablepopupSearchEng .ofCallStatusPopup 
+{
+width:25%
+}
+.ofCallTypeWidth { 
+    width: 93% !important;
+    margin-left: -3px !important;
+}
+.ofWorkWidth {
+   width: 183px;
+}
+#redirectToPartOrdering.ofCurrentSelect, #redirectToCallReporting.ofCurrentSelect, #redirectToCallStatus.ofCurrentSelect
+{
+background:rgb(229,232,232);
+color:black;
+;
+}
+.ofCallStatusSeverityWidth
+{
+width: 183px !important;
+}
+.ofMandatoryFieldRemark
+{
+margin-left: -160px;
+padding-right: 60px;
+}
+.ofCommentSectionUplift
+{
+margin-top: 6px;
+
+}
+#MandatoryFieldRemark
+{
+margin-left: -30px;
+padding-right: 16px;
+}
+.ofItemDimenssions{
+	background-color: transparent;
+	border: none;
+	margin-right: 0 !important;
+}
+
+/****************   style.css  ***************/
+.ofCallTableHeading {
+	cursor: pointer;
+	background-color: #383838;
+	font-size : small;
+	border: 1px solid white;
+	position: relative;
+	text-align: left;
+	color: white; 
+	font-size: small;
+}
+
+.ofCurrentSelect:hover{
+
+color:black!important;
+}
+
+.ofSubMenuItem ul:hover .ofCurrentSelect#redirectToPartOrdering, .ofSubMenuItem ul:hover .ofCurrentSelect, .ofSubMenuItem ul:hover .ofCurrentSelect#redirectToCallReporting,.ofSubMenuItem ul:hover .ofCurrentSelect#redirectToCallStatus{
+background: #0096D6;
+color:white
+}
+.ofCurrentSelect #redirectToPartOrdering:hover, .ofCurrentSelect #redirectToCallReporting:hover, .ofCurrentSelect #redirectToCallStatus:hover
+{
+background:rgb(229,232,232)!important;
+color:black !important;
+}   
+.ofLastOrFirstPageArrow
+{
+color: grey!important;
+background-color: lightgray!important;
+border: 1px solid grey;
+margin-right: 2px;
+padding: 5px;
+cursor:default;
+}
+
+/* End of Style for Navigation Menu */
+
+/***************  Style for Call List Table  *********************************************************/
+th {
+	border: 1px solid #fff;
+	background-color: #000000;
+	color: #fff;
+	padding: 0 0;
+}
+
+/**************************  End of Style for engineer table 1 info  **********************************/
+
+.ofCallListTable { 
+	margin: 0px auto;
+	font-size: 13px;
+	width:100%;
+}
+.fornewcallPopup{
+	margin-left:1px;	
+}
+.spinnerImage{
+	position: absolute;
+	top: 47%;
+	background: url("/hpi-s/images/spinner-dark.gif") no-repeat center center transparent;
+	height: 51px;
+	width: 100%;
+}
+
+#sectionMargin{
+margin-top: -4px!important;
+width: 880px;
+position:relative;
+}
+#faultCodePosition{
+    margin-top: -18px!important;
+}
+#labourPosition{
+    margin-top: -22px!important;
+}
+#expensePosition{
+    margin-top: -18px!important;
+}
+#itemUsagePosition{
+    margin-top: -10px!important;
+}
+#commentSectionPosition{
+    margin-top: -27px!important;
+}
+
+
+.ofSpanSearchBar {
+	display: inline-block;
+width: 70%;
+text-overflow: ellipsis;
+overflow: hidden;
+height: 16px;
+line-height: 18px;
+color: #fff;
+max-width: 62px;
+text-align: center;
+}
+
+.imageSearchBar {
+	float: right;
+	margin: 0px !important;
+	background: url('/hpi-s/images/HP_SPRITE.png') no-repeat scroll -131px -55px transparent;
+	width: 20px ;
+	display: inline-block;
+	max-width: 30%;
+	height: 18px;
+cursor: pointer;
+}
+.ofCalendarElement
+{
+border-collapse:inherit;
+}
+.ofItemReturnDetailRow{
+	background: #75B0FF !important;
+}
+#commentalign{
+width: 600px !important;
+min-height: 49px;
+overflow: hidden;
+border:0px;
+}
+
+.engineer-head{
+width:183px;
+}
+/**********************************jQuerUI.css Changes*****************************************************************/
+
+.ui-state-default.ui-state-highlight,.ui-widget-content .ui-state-default.ui-state-highlight, .ui-widget-header .ui-state-default.ui-state-highlight {
+border: 1px solid #fcefa1!important;
+background: rgb(255, 233, 144)!important;
+color: #363636 !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+border: 1px solid #d3d3d3 !important;
+background: #e6e6e6 !important;
+font-weight: normal !important;
+color: #555555 !important;
+}
+.ui-widget-header {
+border: 1px solid #aaaaaa!important;
+background: #cccccc!important;
+color: #222222!important;
+font-weight: bold!important;
+}
+.ui-widget-content
+{
+border: 1px solid #aaaaaa !important;
+}
+
+.ui-icon-circle-triangle-w {
+background: url("/hpi-s/images/CalendarIcons.png") no-repeat -79px -193px !important;
+}
+.ui-icon-circle-triangle-e {
+background: url("/hpi-s/images/CalendarIcons.png") no-repeat -49px -192px !important;
+}
+.ui-icon {
+width: 16px !important;
+height: 16px !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+border: 1px solid #aaaaaa !important;
+background: #ffffff !important;
+font-weight: normal!important;
+color: #212121!important;
+}
+.ui-datepicker td {
+border: 0!important;
+
+}
+.ofCallItem
+{
+width:7%;
+}
+.ofCallItemQ
+{
+width:6%;
+}
+.ofCallItemS
+{
+width:4%
+}
+
+span#sevdownarrowposition{
+left:8px !important;
+}
+.tooltip_bottom
+{
+display:none!important
+}
+
+#editIconSpan
+{
+height: 22px;
+width: 21px !important;
+display: inline-block;
+background: url('/hpi-s/images/edit.png') no-repeat scroll transparent;
+position: absolute;
+top: 14px;
+right: 8px;
+}
+#sectionMargin .ofAppend{
+	width: 806px;
+	margin-top: 28px;
+}
+#navigationList{
+	position: relative;
+	border: 1px solid rgb(135,137,139);
+	background-color:rgb(135,137,139);
+}
+
+.ofDisabledCancel{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -151px -178px;
+	display: inline-block;
+	border-bottom-left-radius: 0.6em;
+	border-top-right-radius: 0.6em;
+	position: absolute;
+  	right: 7px;
+}
+.ofEnabledCancel{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -49px -177px;
+	display: inline-block;
+	border-bottom-left-radius: 0.6em;
+	border-top-right-radius: 0.6em;
+	cursor:pointer;
+	position: absolute;
+  	right: 7px;
+}
+.ofDisabledSearch{
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -152px -150px;
+	position: relative;
+	z-index: -1;
+	cursor: default;
+}
+.disabledButton{
+	position: relative;
+	z-index: -1;
+	background: rgb(157, 157, 157)!important;
+	cursor: default!important;
+	color: #fff!important;
+}
+.ofDisabledPlus{
+	background: url("/hpi-s/images/HP_SPRITE.png") no-repeat -106px -82px;
+	height: 14px;
+	width: 14px;
+	margin-right: 5px;
+	display: inline-block;
+}
+.ofNewClassLineDisabled{ 
+	color: #919191;
+	z-index: -1;
+	position: relative;
+}
+.forDisabledCal{
+	pointer-events: none;
+}
+.multiDropDivDisable{
+	pointer-events: none;
+}
+.ofNewCallPagecomment #textBoxForComments, .customisedTextAreaDiv #textBoxForComments{
+      	width:100%;
+         overflow:hidden;
+}
+.ofPreviousComments{
+color: rgb(109, 109, 109);
+    line-height: 15px;
+	font-family: monospace;
+     min-height:15px
+ }
+.ofDisableCancel
+{
+background-color:lightgray!important;
+color:gray!important
+}
+.ofItemReturnPreviousComments{
+color: #747070;
+text-align: left;
+word-wrap: break-word;
+font-family: monospace;
+font-size: 13px;
+}
+.flex-text-wrap {
+    position: relative;
+    *zoom: 1;
+}
+textarea,.flex-text-wrap {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    *padding-bottom: 0 !important;
+}
+.flex-text-wrap textarea,.flex-text-wrap pre {
+    white-space: pre-wrap;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    *white-space: pre;
+    *word-wrap: break-word;
+}
+.flex-text-wrap textarea {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    resize: none;
+}
+.flex-text-wrap pre {
+    display: block;
+    visibility: hidden;
+}
+
+#textBoxForComments1
+{
+margin: 0px 0px !important;  
+font-family:monospace;
+ //height: 16px; 
+   resize: none; 
+ display: block; 
+ margin: 0px auto;
+  overflow: hidden;
+border: none;
+line-height:15px;                  	
+
+}
+::root #textBoxForComments1 { width: 610px; }
+
+.FaultCodesTable span.ofFaultCodeAsterisk {
+	color: #fff;
+}
+
+div#pdfViewSection {
+overflow: scroll;
+height: 520px;
+top: 0px;
+background: #ECECEC;
+}
+
+#headerPdfViewSection{
+	background: #0096D6;
+	min-height: 20px;
+	text-align: center;
+	color: #fff;
+	padding-top: 3px;
+}
+.ofMultiLineD
+{
+text-align: left;
+width: auto;
+display: inline-block;
+
+}
+.EmptyTableHeader{
+	background: #fff!important;
+	width: 30px;
+	visibility: hidden;
+	display: none;
+	border:0px;
+}
+.divofPartCrossLogo{
+	display: inline-block;
+	vertical-align: middle;
+	width:20px;
+}
+.refLineOptions{
+	width: 65px;
+}
+.partOrderEngineerDiv{
+	width: 89px;
+	display: inline-block;
+}
+
+.partOrderEngineerDiv #poEngineerNameInput{
+	border: solid 1px #B9B8BB;
+	background-color: #fff;
+	width: 83px;
+	height: 20px;
+}
+
+.partOrdOfSiteDiv{
+	display: inline-block;
+	width: 60px;
+}
+
+.partOrdOfSiteDiv input{
+	width: 54px;
+	height: 20px;
+	background: none;
+	border: 1px solid #B9B8BB;;
+}
+
+.partOrdShip{
+	display: inline-block;
+	width: 44px;
+}
+
+.partOrdShip input{
+	width: 55px;
+	height: 20px;
+	background: none;
+	border: 1px solid #B9B8BB;;
+}
+#ofItemOrderPopUp .itemBrowseHeaderSection, .newcallSerialPopUpHeader,.newcallEngineerPopUpHeader{
+	display: inline-block;
+	width: 100%;
+}
+.ascendingDesHeader{
+	margin-left: -45px;
+}
+#displayPartOrderContainer .ofNewOrderTable{
+	display: inline-block;
+}
+.ofClosedCallLine .ofDisabledCancel.ofCloseCallCross{
+	margin-right: -2px;
+}
+.ofNewOrderTable span {
+  line-height: 18px;
+}
+#engSearchPopupTableDiv
+{
+height: 240px;
+  overflow-x: hidden;
+  border-bottom: 1px solid rgb(156, 156, 156);
+}
+.ofFilersAcknowledge{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+} 
+.ofWidthE
+{
+width:8%!important;
+}
+.ofWidthT
+{
+width:10%!important;
+}
+.ofWidthF
+{
+width:15%!important;
+}
+.ofWidthFour
+{
+width:2%!important;
+}
+
+.ofCallListOpenCustomer #containerDivForCalendar
+{
+  width: 529px!important;
+}
+
+.ofCallListOpenCustomer .buttonOfCalendar
+{
+  margin-top: 65px!important;
+}
+
+.ofCallTablePopupDrpDwnatags
+{
+text-transform: uppercase;
+} 
+
+.ofEngDef {
+font-size: small;
+color: black;
+}
+
+#OtherEmail
+{
+border: 1px solid #B9B8BB;
+}
+
+.ofOptionsCon
+{
+width: 100% !important;
+height: 100% !important;
+border: 0px !important;
+}
+.ofCon
+{
+width:9%
+}
+.ofReturned{
+width: 79%!important;
+height: 95%!important;
+z-index: 2;
+left: 1px!important;
+}
+
+.ofReturnButtonDisabledF
+{
+background: gray!important;
+cursor: default;
+}
+
+.ofHiddenSearch
+{
+background: url(http://css-int-crp3.austin.hp.com/hpi-s/images/HP_SPRITE.png) -152px -150px no-repeat!important;
+cursor:default;
+}
+/**/
+
+.ofCallDesc
+{
+display: inline-block;
+float: left;
+width: 74%;
+}
+
+.ofCallDesc span
+{
+display: inline-block;
+width: 100%;
+padding: 2px;
+color: #0096D6;
+}
+
+.ofCallDesc input
+{
+width: 100%;
+}
+
+.ofCallUpdateSer .ofSerialSrchIcon {
+/*width: 125px;*/
+width:100%;
+height: 23px;
+margin-right:0px;
+box-sizing: border-box;
+}
+
+.ofCallUpdateSer .ofSerialSrchIcon input {
+height: 100%;
+width: 78%;
+}
+
+.ofCallUpdateFields .select-editable select, .ofCallUpdateFields .select-editable {
+	/*width: 125px;*/
+width:100%;
+height: 23px !important;
+
+ }
+
+.ofCallUpdateFields .select-editable input {
+/*width: 103px;*/
+width:90%;
+}
+
+.ofCallUpdateFields #purchaseOrder, .ofCallUpdateFields #phoneNumber {
+	/*width: 125px;*/
+width:100%;
+
+ }
+.ofCallUpdateFields .ofSearchInput input {
+width: 76%;
+}
+
+.ofCallUpdateFields .ofNewSrchIcon {
+
+background: url('/hpi-s/images/HP_SPRITE.png') no-repeat scroll -128px -28px transparent;
+
+}
+
+#nextStat
+{
+margin-top: 29px;
+}
+
+.ofSideDiv span,.ofQueue span
+{
+height: 23px;
+display: inline-block;
+color: #0096D3;
+line-height: 23px;
+}
+
+.ofSideDiv select
+{
+float:right;
+}
+
+.ofSideDiv #statusDropDown
+{
+margin-right:0px!important;
+}
+.ofSideDiv
+{
+/*width: 195px;
+display: inline-block;
+float:right;
+margin-right: 9px;*/
+width: 23%;
+display: inline-block;
+float: right;
+margin-left: 3%;
+}
+
+.ofQueue
+{
+/*display: inline-block;
+margin-left: 22px;
+margin-top: 19px;
+width: 196px;*/
+display: inline-block;
+margin-left: 3%;
+margin-top: 16px;
+width: 23%;
+}
+
+.ofQueue select
+{
+float:right;
+}
+
+.ofCallUpdateFields#searchEngCode
+{
+/*
+width: 197px;
+margin-left: 31px;
+*/
+width: 23%;
+margin-left: 3%;
+float:none;
+}
+
+.ofStatus .ofSubmitAck
+{
+margin-top:190px;
+}
+
+.draggableCom 
+{
+position: absolute;
+left: 90%;
+}
+
+#arrowU
+{
+display: inline-block;
+width: 20px;
+height: 12px;
+background: url('/hpi-s/images/HP_SPRITE.png') no-repeat scroll -128px -130px transparent;
+}
+
+#arrowD
+{
+display: inline-block;
+width: 20px;
+height: 14px;
+
+}
+.ofStatus .ofCommentSectionUplift
+{
+position:absolute;
+bottom:92px;
+z-index:90;
+margin-left:2px;
+width: 74%;
+height: 112px;
+overflow: visible !important;
+background-color: white;
+}
+
+.ofStatus.ofMainWrapper
+{
+position:relative
+}
+
+
+.ofStatus .ofMainDivComments,.ofStatus .testMultipleInput
+{
+
+
+height:100%;
+margin:0px
+
+
+}
+.ofStatus .ofCommentSectionUplift #customScrollDiv
+{
+background-color:white;
+}
+ .ofStatus .ofCommentSectionUplift #textBoxForComments1
+{
+font-size:13px
+}
+.ofStatus .ofCommentsSpan
+{
+margin-left:0px
+}
+ 
+.ofDisappear tr, .ofDisappear td
+{
+color:white!important
+}
+.ofDisappear tr.ofNewCallBannerBlue, .ofDisappear .ofNewCallBannerBlue td
+{
+color:#E6F5FF !important
+}
+
+#glanceBut
+{
+background-color: #99FFFF;
+color: black;
+padding: 8px 7px;
+text-decoration: none;
+margin: 0px 0px 0 1px;
+font-size: 13px;
+position: absolute;
+bottom: 18px;
+left: 0;
+max-width: 82%;
+font-weight: 600;
+box-shadow: 2px 2px 2px #888888;
+}
+
+.ofSideDiv .ofDateInputReportingSpan
+{
+width: 15px!important;
+position: absolute!important;
+right: 12px;
+cursor: pointer;
+background: url("/hpi-s/images/HP-SPRITE.png") no-repeat -156px -182px;
+height: 23px;
+display: inline-block;
+color: #0096D3;
+top: 5px;
+}
+
+#nextStatTD
+{
+position: relative;
+margin-top: 29px;
+border: 1px solid #B9B8BB;
+}
+
+.ofSideDiv .ofDivTimeInputSpan
+{
+display: inline-block;
+}
+#systemMessage
+{
+text-align: left;
+display:inline-block;
+padding: 16px 16px 0px 16px;
+
+}
+.ofLinkDiv
+{
+text-align: center;
+margin-top:16px
+}
+#systemMessageWindow
+{
+text-align:center;
+position: fixed;
+width: 600px;
+height: auto;
+background: #fff;
+box-shadow: 0px 0px 7px #000;
+margin: 0 auto;
+right: 0;
+left: 0;
+z-index: 112;
+}
+#dateInp {
+width: 99px;
+margin-left: 12px;
+border: 0px;
+text-transform: uppercase;
+background:transparent;
+}
+
+.ofSideDiv .ofDateInputReporting {
+
+right: -18px;
+
+}
+
+.ofStatusOverlay.ofPopupOverlay {
+position:fixed;
+height: 100%;
+display: none;
+bottom:0px;
+width: 100%;
+background-color: #fff;
+opacity: 0.5;
+z-index: 110;
+}
+#ofMesBody
+{
+margin-bottom:20px
+
+}
+
+#ofMesBody .ofPageButton
+{
+margin: 0 auto;
+display: inline-block;
+
+}
+
+.ofStatus #searchEngCode span
+{
+line-height:normal !important;
+} 
+.ofStatus #searchEngCode div
+{
+margin-top:2px;
+box-sizing: border-box;
+} 
+
+.ofStatus #searchIconPosition {
+margin: 2px 0px 0px 9px;
+}
+
+.ofCallUpdateFields select
+{
+margin-top:2px;
+height: 23px!important;
+}
+.ofCallUpdateFields select#caller
+{
+margin-top:0px;
+}
+
+.ofStatus #engineerName
+{
+line-height: inherit!important;
+}
+
+ .ofStatus #searchProductSerialId
+{
+ margin-bottom: 0px!important; 
+}
+
+#priority
+{
+margin-top: 2px;
+}
+#callTypeSel,#severitySel,#queueSel,#statSel,#nextStatSel,#workCodeSel
+{
+position:absolute;
+top: 3px;
+left: 3px;
+height: 81%;
+vertical-align: middle;
+background: white;
+border:none!important;
+width: 82%;
+text-align: left;
+line-height: 19px;
+color:black;
+padding-left: 0px;
+}
+
+#queueSel,#statSel,#nextStatSel
+{
+width:82%
+}
+#workCodeSel
+
+{
+width:82%
+}
+. ofDisabledLabelClass#callTypeSel,.ofDisabledLabelClass#severitySel
+{
+color:gray;
+}
+
+#severitySel
+{
+width:61%
+}
+.ofModified
+{
+background-color: #e5ffff!important;
+border: 1px solid #0096D3;
+}
+.ofModifiedP
+{
+background-color: #e5ffff;
+border: 1px solid #0096D3!important;
+}
+.ofModified#callTypeDropDown,.ofModified#caller,.ofModified#severityDropDown,.ofModified#workCodeDropDown,.ofModified#queueDropDown,.ofModified#statusDropDown, .ofModified#nextStatD
+{
+border: 1px solid #0096D3!important;
+}
+.ofErrorInTime,.ofErrorLabourTime
+{
+border:1px solid red !important
+}
+
+
+.ofStatus input,.ofStatus select {
+
+margin-right: 0px;
+}
+.ofStatus #engineerName
+{
+height:20px
+}
+.ofStatus .ofTimeInputSpan 
+{
+background:transparent;
+width:20px!important;
+} 
+
+.ofStatus #severityDropDown,.ofStatus #callTypeDropDown,.ofStatus #workCodeDropDown
+{
+/*color:white;*/
+margin-top:0px ;
+}
+.ofStatus #severityDropDown option,.ofStatus #callTypeDropDown option,.ofStatus #workCodeDropDown
+
+{
+color:black
+}
+/*
+.ofStatus #severityDropDown.ofModified,.ofStatus #callTypeDropDown.ofModified ,.ofStatus #workCodeDropDown.ofModified
+
+{
+color:#e5ffff;
+}*/
+.ofStatus .select-editable input
+{
+left:2px
+}
+.ofIncreasedWid
+{
+width:25%
+}
+.ofDecreasedWid
+{
+width:7%
+}
+.ofSideSpanW
+{
+float:left;
+width: 36%;
+}
+
+.ofQueue .select-editable , .ofSideDiv .select-editable
+{
+width: 64%;
+display: inline-block;
+}
+.ofError .ofTopTaskbar,.ofError .ofPageButton,.ofError .ofCloseButtonSys
+{
+	background:#E80000
+}
+
+/*Reporting 20Jan*/
+.ItemUsageTable .select-editable
+{
+width:82px;
+}
+
+.ItemUsageTable .select-editable select
+{
+width:100%;
+border:none!important
+}
+
+.ofReturnItemD
+{
+text-align: left;
+width: 100%;
+}
+
+.ofReturnDetailsInput
+{
+margin-top: 3%;
+margin-right: 2%;
+}
+.ofMRTable
+{
+margin-top:8px;
+}
+
+.ofTableReturn td.ofRetStatus
+{
+padding:0px!important;
+}
+
+.submitAckRet
+{
+margin-bottom: 8px;
+color: black;
+}
+
+.ofMulRetD
+{
+
+max-height: 110px;
+overflow-y: auto;
+width:98%
+}
+.ofItemReturnDetailsComments.ofDisabledLabelClass .spanForCurrentUserItemReturn
+{
+color:gray!important;
+}
+
+.ofPopupItemReturnDiv .ofAddNewReturn .ofDisabledLabelClass
+{
+background:white!important;
+cursor: default;
+}
+
+.ofDisabledLabelClass .ofInputForCurrentUserItemReturn 
+{
+background-color:#E7E7E7!important
+}
+
+input.ofMultiReturnData
+{
+height:100%
+}
+.ofErrM
+{
+text-align:left;
+}

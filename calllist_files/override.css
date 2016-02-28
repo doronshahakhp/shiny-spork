@@ -1,0 +1,359 @@
+/*body { font-size: 14px; }  default body text has problems when combining css. Setting body ensures text size defaults unless set previously */
+
+.body a:visited{color:#007dba!important;}
+.breadcrumbs, .breadcrumbs a, a.breadcrumbs {
+  line-height: 30px!important;
+}
+.active-filter
+{
+	background-color: white !important;
+}
+form.k-filter-menu.k-popup.k-group.k-reset.k-state-border-up {
+    max-width: 300px;
+}
+form.k-filter-menu.k-popup.k-group.k-reset.k-state-border-up > div > label > input[type="radio"] {
+    width: 31px;
+    margin-right: 0px;
+}
+/* This was for the template documentation and can be removed */
+pre, code {
+	margin-bottom: 22px;
+	font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: inherit;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap !important;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+pre {
+	background: #f3f3f7;
+	border: 1px solid #dedee3;
+	padding: 11px;
+	font-size: 12px;
+	line-height: 1.3em;
+	margin-bottom: 22px;
+	overflow: auto;
+	display: block;
+	clear: both;
+}
+
+/* These are fixes for the HP styles, conflicts occured when combining them */
+label {
+	font-size: 16px;
+}
+
+/* Fix for Branding Changes - Caas Header-Footer */
+#content {
+  width: 1000px;
+  margin: auto auto 30px auto;
+  display: block;
+}
+
+.overlay_popup {
+    padding-top: 0;
+}
+
+.overlay_popup .popup_close {
+    background: url("../i/common/s-21px-hpe.png") no-repeat scroll 0 -500px transparent;
+ }
+
+.steps_wrapper {
+	height: 60px;
+}
+
+.step_descriptor .js_next { /* fixes next link disappearing due to multioverlay inclusion */
+    display: inline;
+}
+
+.step_descriptor_blue .arrow {
+	background: none;
+}
+
+.step_descriptor .item_label { /* gives labels a size no inherited */
+	padding-left: 20px;
+}
+.dr_fnd .dd_trigger_downside {  /* fixes dropdown adjustment on table actions */
+	border: 0px!important;
+}
+
+.secondary_nav .expand_area .level3, .secondary_nav .expand_area .level4, .secondary_nav .expand_area .promo_area {
+	/*height: 150px;*/
+	height: 100%;
+	max-height: 250px;
+}
+
+/* Fixes the formatting of the multi-select widget */
+.multiselect_enabled .multiselect_text, .multiselect_disabled .multiselect_text {font-size: 16px; margin-bottom: 0px;}
+
+/* Fixes the font coloring after date-picker styles are inluded */
+body, select, input, textarea {color: #000;}
+
+/* Layout */
+.col-3 {
+	float: left; 
+	width: 200px; 
+	padding: 20px 20px 0px 0px; 
+	text-align: center;
+}
+
+.lay_25_75 {width: 964px!important;}
+.lay_25_75 .right {width: 700px!important;}
+
+/* catalog image layou */
+.mainCatImg .catImgText {
+	width: 400px; 
+	right: 0px; 
+	top: 20px;
+}
+
+/* Adds style to datepicker when disabled */
+select#selectedDay:disabled,
+select#selectedMonth:disabled,
+select#selectedYear:disabled,
+select#toselectedDay:disabled,
+select#toselectedMonth:disabled,
+select#toselectedYear:disabled {
+    background: #dddddd;
+}
+
+/* Fixes nested table font sizing */
+tr .table_sortable table {
+	font-size: 70%;
+}
+
+/* adding styles for mootools default validation class to selects */
+.validation-failed, .js_multiselect.dd_error {
+  border-color: #ff0000;
+  color: #ff0000;
+}
+.js_multiselect.dd_error a {color: #ff0000;}
+.validation-advice {
+	color: #ff0000;
+	margin-top: 5px;
+	font-size: 14px;
+}
+/*
+==========================
+== COMPONENT EXTENSIONS ==
+==========================
+*/
+
+/* colored indicators used on PVI Tool */
+.circle{border-radius:50px; color:#fff; line-height:20px; text-align:center; padding: 0px 5px ;}
+.color_red{background:#E10000;}
+.text_red{color:#E10000;} 
+.color_green{background:#008424;}
+.text_green{color:#008424;} 
+.color_yellow{background:#FD9326;}
+.text_yellow{color:#FD9326;} 
+
+/* autocomplete styles */
+.ui-autocomplete { max-height: 150px; overflow-y: scroll; overflow-x: hidden;}
+.ui-widget-content{border: 2px solid #333;color: #222222;background-color: white;}.ui-widget{font-size: 12px;}
+.ui-menu{display: block;float: left;list-style: none outside none;margin: 0;}
+.ui-autocomplete{cursor: default;position: absolute;}
+.ui-menu .ui-menu-item{clear: left;float: left;margin: 0;padding: 0px;width: 100%;}
+.ui-menu .ui-menu-item a{display: block;padding: 8px;text-decoration: none;cursor: pointer;}
+.ui-menu .ui-menu-item a:hover{display: block;text-decoration: none;color: White;cursor: pointer;background-color: #0096D6;}
+.ui-widget-content a{color: #222222;}
+
+/*   Custom Radio styles */
+#customRadio .ui-buttonset .ui-button {margin-top:20px; margin-bottom:20px;}
+#customRadio .ui-button-text-only .ui-button-text {padding: .4em 1em;}
+#customRadio .ui-button .ui-button-text {display: block;line-height: normal;}
+#customRadio .ui-widget{font-size:16px;font-weight:bold;}
+#customRadio .ui-button, #customRadio .ui-button:link, #customRadio .ui-button:visited, #customRadio .ui-button:hover, #customRadio .ui-button:active{text-decoration: none;}
+#customRadio .ui-button{display: inline-block; position: relative;padding: 0; line-height: normal; margin-right: .1em; cursor: pointer; vertical-align: middle; text-align: left; overflow: visible;}
+#customRadio .ui-helper-hidden-accessible {border: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+#customRadio .ui-state-default, #customRadio .ui-widget-content .ui-state-default, #customRadio .ui-widget-header .ui-state-default {border: 2px solid #cccccc;border-radius: 4px;background: #ffffff;font-weight: bold;color: #767676;}
+#customRadio .ui-state-default a, #customRadio .ui-state-default a:link, #customRadio .ui-state-default a:visited {color: #767676; text-decoration: none;}
+#customRadio .ui-state-hover, #customRadio .ui-widget-content .ui-state-hover, #customRadio .ui-widget-header .ui-state-hover, #customRadio .ui-state-focus, #customRadio .ui-widget-content #customRadio .ui-state-focus, #customRadio .ui-widget-header .ui-state-focus{border: 2px solid #1897d3;background: #ffffff;font-weight: bold;color: #1897d3;}
+#customRadio .ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited, .ui-state-focus a, .ui-state-focus a:hover, .ui-state-focus a:link, .ui-state-focus a:visited {color: #1897d3; text-decoration: none;}
+#customRadio .ui-state-active, #customRadio .ui-widget-content .ui-state-active, #customRadio .ui-widget-header .ui-state-active{border: 2px solid #1897d3; background: #ffffff; font-weight: bold; color: #1897d3;}
+#customRadio .ui-state-active a, #customRadio .ui-state-active a:link, #customRadio .ui-state-active a:visited {color: #eb8f00; text-decoration: none;}
+
+.tbl tfoot td {
+	background: #eee;
+}
+
+/* Restyles mootools validations for data grid display */
+.grid .validation-advice-cont {
+    position: absolute;
+    width: 150px;
+    background: white;
+    margin-top:  5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.grid .validation-advice {
+    margin: 10px;
+}
+
+/* Report Popup Modals */
+.reportPopup {
+	position: fixed!important; 
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0; 
+	overflow: auto; 
+	margin: auto;
+}
+
+/* Report Table style */
+.reportHeader {
+ 	background: #767676; 
+ 	padding: 12px 20px; 
+ 	border:#ccc solid; 
+ 	border-width: 2px 2px 0 2px;
+ 	color: #fff;
+}
+.table_sortable.reportTable th,  .table_sortable.reportTable td{padding: 5px; vertical-align: middle;}
+.table_sortable.valign th,  .table_sortable.valign td{vertical-align: middle;}
+.table_sortable table.report tr:ntn-child(even) {background: black;}
+.table_sortable table.report tr:ntn-child(odd) {background: black;}
+.table_sortable .greyBg {background: #eee;}
+/*
+===========================
+== LAYOUT HELPER CLASSES ==
+===========================
+*/
+.w20{width:20px;}
+.w45{width:45px;}
+.w70{width:70px;}
+.w80{width:80px;}
+.w90{width:90px;}
+.w100{width:100px;}
+.w110{width:110px;}
+.w120{width:120px;}
+
+.r{border-radius: 5px!important;}
+
+.pos-rlt{position: relative;}
+.pos-stc{position: static;}
+.pos-abt{position: absolute;}
+
+.block{display: block!important;}
+
+.clearfix {clear: both!important;}
+.clear {clear: left;}
+
+.v-middle{vertical-align: middle;}
+
+.pull-right {float: right!important;}
+.pull-left {float: left!important;}
+
+.text-center{text-align: center!important;}
+.text-left{text-align: left!important;}
+.text-right{text-align: right!important;}
+
+.text-muted {color: #999;}
+
+.font-sm{font-size: 12px;}
+
+.no-padder{padding:0px!important;}
+.padder-sm{padding-left:10px!important;padding-right: 10px!important;}
+.padder{padding-left:15px;padding-right: 15px}
+.padder-v{padding-top:15px;padding-bottom: 15px}
+
+.m-xs{margin: 5px;}
+.m-sm{margin: 10px;}
+.m{margin: 15px;}
+.m-md{margin: 20px;}
+.m-lg{margin: 30px;}
+.m-n{margin: 0 !important;}
+
+.m-l-none{margin-left: 0!important;}
+.m-l-xs{margin-left: 5px;}
+.m-l-sm{margin-left: 10px;}
+.m-l{margin-left: 15px}
+.m-l-md{margin-left: 20px;}
+.m-l-lg{margin-left: 30px;}
+.m-l-xl{margin-left: 40px;}
+
+.m-l-n-xxs{margin-left: -1px}
+.m-l-n-xs{margin-left: -5px}
+.m-l-n-sm{margin-left: -10px}
+.m-l-n{margin-left: -15px}
+.m-l-n-md{margin-left: -20px}
+.m-l-n-lg{margin-left: -30px}
+.m-l-n-xl{margin-left: -40px}
+
+.m-t-none{margin-top:0}
+.m-t-xxs{margin-top: 1px;}
+.m-t-xs{margin-top: 5px;}
+.m-t-sm{margin-top: 10px;}
+.m-t{margin-top: 15px!important;}
+.m-t-md{margin-top: 20px;}
+.m-t-lg{margin-top: 30px;}
+.m-t-xl{margin-top: 40px;}
+
+.m-t-n-xxs{margin-top: -1px}
+.m-t-n-xs{margin-top: -5px}
+.m-t-n-sm{margin-top: -10px}
+.m-t-n{margin-top: -15px}
+.m-t-n-md{margin-top: -20px}
+.m-t-n-lg{margin-top: -30px}
+.m-t-n-xl{margin-top: -40px}
+
+.m-r-none{margin-right: 0}
+.m-r-xs{margin-right: 5px}
+.m-r-sm{margin-right: 10px}
+.m-r{margin-right: 15px}
+.m-r-md{margin-right: 20px}
+.m-r-lg{margin-right: 30px}
+.m-r-xl{margin-right: 40px}
+
+.m-r-n-xxs{margin-right: -1px}
+.m-r-n-xs{margin-right: -5px}
+.m-r-n-sm{margin-right: -10px}
+.m-r-n{margin-right: -15px}
+.m-r-n-md{margin-right: -20px}
+.m-r-n-lg{margin-right: -30px}
+.m-r-n-xl{margin-right: -40px}
+
+.m-b-none{margin-bottom: 0}
+.m-b-xs{margin-bottom: 5px;}
+.m-b-sm{margin-bottom: 10px;}
+.m-b{margin-bottom: 15px;}
+.m-b-md{margin-bottom: 20px;}
+.m-b-lg{margin-bottom: 30px;}
+.m-b-xl{margin-bottom: 40px;}
+
+.m-b-n-xxs{margin-bottom: -1px}
+.m-b-n-xs{margin-bottom: -5px}
+.m-b-n-sm{margin-bottom: -10px}
+.m-b-n{margin-bottom: -15px}
+.m-b-n-md{margin-bottom: -20px}
+.m-b-n-lg{margin-bottom: -30px}
+.m-b-n-xl{margin-bottom: -40px}
+.footer .site_links .ul_media_links li
+{
+    vertical-align: baseline;
+}
+
+
+@media screen and (max-width:999px) {
+    /* Fix for Branding Changes - Caas Header-Footer */
+#content {
+	  width: 100%;
+	  margin: auto auto 30px auto;
+	  display: block;
+	}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   /* IE10-specific styles go here */
+   body{overflow-y: hidden;}
+}
+@media screen and (min-width:0\0) {
+    /* IE9 and IE10 rule sets go here */
+	body{overflow-y: hidden;}
+}
